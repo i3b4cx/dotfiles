@@ -26,6 +26,7 @@ syntax enable
 filetype plugin indent on
 
 set mouse=a
+set tabstop=4
 set nocompatible
 set noshowmode
 set laststatus=2
