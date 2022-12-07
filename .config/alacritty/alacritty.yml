@@ -1,0 +1,53 @@
+window:
+  opacity: 1.0
+  padding:
+    x: 10
+    y: 10
+
+colors:
+  primary:
+    # hard contrast: background = '0x1d2021'
+    background: '0x2E3440'
+    # soft contrast: background = '0x32302f'
+    foreground: '0xD8DEE9'
+
+  normal:
+    black:   '0x2E3440'
+    red:     '0xBF616A'
+    green:   '0xA3BE8C'
+    yellow:  '0xEBCB8B'
+    blue:    '0x5E81AC'
+    magenta: '0xB48EAD'
+    cyan:    '0x88C0D0'
+    white:   '0xD8DEE9'
+
+  bright:
+    black:   '0x757575'
+    red:     '0xff0000'
+    green:   '0x00ff00'
+    yellow:  '0xffff00'
+    blue:    '0x0000ff'
+    magenta: '0xff00ff'
+    cyan:    '0x00ffff'
+    white:   '0xffffff'    
+
+# Font
+font:
+  # Normal (roman) font face
+  normal:
+    family: Fira Code
+    style: Regular
+
+  bold:
+    family: Fira Code
+    style: Bold
+
+  italic:
+    family: Fira Code
+    style: Italic
+
+  bold_italic:
+    family: Fira Code
+    style: Bold Italic
+
+  size: 8.0

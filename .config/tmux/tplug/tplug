@@ -1,0 +1,61 @@
+#!/bin/bash
+
+# Global Variables
+TMUX_PATH=$HOME/.config/tmux
+TPLUG_DEFAULT_PATH=$TMUX_PATH/tplug
+TPLUG_PATH=$TPLUG_DEFAULT_PATH
+TPLUG_DEFAULT_VAR="@tplugPath"
+TPLUG_SDK_VAR="@tplugSdk"
+
+# Check if the Tplug path has been set by user. If it hasn't, then
+# use the default path of ~/.config/tmux. Otherwise, use theirs.
+# Also set the SDK Path for ease of use.
+setPaths() {
+    local tplugPath="$(tmux show-option -gqv $TPLUG_DEFAULT_VAR)"
+
+    if [ -z $tplugPath ]
+    then
+        tmux set-option -gq $TPLUG_DEFAULT_VAR $TPLUG_DEFAULT_PATH
+    else
+        TPLUG_PATH=$tplugPath
+    fi
+
+    tmux set-option -gq $TPLUG_SDK_VAR $TPLUG_PATH/scripts/sdk.sh
+}
+
+# Source the passed in *.tmux file. Note the plugin path is .config/tmux.
+# Plugins directory is embedded into status variable set by user (e.g. plugins/myplugin.tmux)
+sourcePlugin() {
+    local plugin=$1
+    local pluginPath=$TMUX_PATH/$plugin.tmux
+
+    source $pluginPath
+}
+
+# Iterate through all plugins to source/run them
+execPlugins() {
+    local plugins="$(listPlugins)"
+
+    for plugin in $plugins; do
+        sourcePlugin "$plugin"
+    done
+}
+
+# List all plugins in tmux.conf using awk
+listPlugins() {
+    local plugin=$(awk '/^[ \t]*set(-option)? +-g +(\")?@plugin(\")?/ { 
+    gsub(/'\''/,""); gsub(/'\"'/,""); print $4 }' $HOME/.config/tmux/tmux.conf)
+
+    echo $plugin
+}
+
+# Run tplug and setup environment by doing the following:
+# 1) Find the tplug path and set it.
+# 2) Set the SDK path using the tplug path.
+# 3) Execute the plugins once the path has been set.
+main() {
+    setPaths
+    execPlugins
+}
+
+main
