@@ -49,7 +49,7 @@ nnoremap <silent> <Down>  j:echoe "Use j"<CR>
 
 """ General Settings
 " turn modifiable on
-set modifiable
+au TermOpen * set modifiable
 " Be IMproved, required
 set nocompatible
 " Disable cursor changing https://git.io/JfbFH
