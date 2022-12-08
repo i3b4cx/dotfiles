@@ -37,18 +37,18 @@ Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle'}
 Plug 'arcticicestudio/nord-vim'
 Plug 'chriskempson/base16-vim'
 Plug 'vim-airline/vim-airline'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight', { 'on': 'NERDTreeToggle'}
+" Plug 'tiagofumo/vim-nerdtree-syntax-highlight', { 'on': 'NERDTreeToggle'}
 Plug 'ryanoasis/vim-devicons', { 'on': 'NERDTreeToggle'}
 call plug#end()
 
 " Get off my lawn
-nnoremap <silent> <Left>  h:echoe "Use h"<CR>
-nnoremap <silent> <Right> l:echoe "Use l"<CR>
-nnoremap <silent> <Up>    k:echoe "Use k"<CR>
-nnoremap <silent> <Down>  j:echoe "Use j"<CR>
+" nnoremap <silent> <Left>  h:echoe "Use h"<CR>
+" nnoremap <silent> <Right> l:echoe "Use l"<CR>
+" nnoremap <silent> <Up>    k:echoe "Use k"<CR>
+" nnoremap <silent> <Down>  j:echoe "Use j"<CR>
 
 """ General Settings
-" turn modifiable on
+" turn modifiable on so we can use vim terminal
 au TermOpen * set modifiable
 " Be IMproved, required
 set nocompatible

@@ -1,3 +1,18 @@
-2022/12/07-12:20:53.777 3 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Session Storage/MANIFEST-000001
-2022/12/07-12:20:53.780 3 Recovering log #25
-2022/12/07-12:20:53.781 3 Reusing old log /home/hpurdum/.config/chromium/Default/Session Storage/000025.log 
+2022/12/07-13:43:39.419 5 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Session Storage/MANIFEST-000001
+2022/12/07-13:43:39.424 5 Recovering log #25
+2022/12/07-13:43:39.428 5 Reusing old log /home/hpurdum/.config/chromium/Default/Session Storage/000025.log 
+2022/12/07-14:40:36.555 5 Level-0 table #29: started
+2022/12/07-14:40:36.559 5 Level-0 table #29: 32320 bytes OK
+2022/12/07-14:40:36.570 5 Delete type=0 #25
+2022/12/08-10:46:18.283 40 Level-0 table #31: started
+2022/12/08-10:46:18.286 40 Level-0 table #31: 20973 bytes OK
+2022/12/08-10:46:18.290 40 Delete type=0 #28
+2022/12/08-10:46:18.291 40 Compacting 4@0 + 1@1 files
+2022/12/08-10:46:18.296 40 Generated table #32@0: 1379 keys, 59542 bytes
+2022/12/08-10:46:18.296 40 Compacted 4@0 + 1@1 files => 59542 bytes
+2022/12/08-10:46:18.298 40 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/08-10:46:18.299 40 Delete type=2 #20
+2022/12/08-10:46:18.300 40 Delete type=2 #23
+2022/12/08-10:46:18.300 40 Delete type=2 #26
+2022/12/08-10:46:18.300 40 Delete type=2 #29
+2022/12/08-10:46:18.300 40 Delete type=2 #31
