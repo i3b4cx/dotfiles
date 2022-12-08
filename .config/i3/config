@@ -190,7 +190,7 @@ bar {
 	colors {
 		background #2E3440
 		focused_workspace #EBCB8B #3B4252
-		active_workspace #3B4252 #3B4252
+		active_workspace #EBCB8B #3B4252
 		inactive_workspace #BF616A #2E3440
 	}
 }
