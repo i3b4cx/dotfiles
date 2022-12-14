@@ -1,7 +1,19 @@
-2022/12/07-02:36:18.707 258d Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/07-02:36:18.707 258d Recovering log #4
-2022/12/07-02:36:18.708 258d Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000004.log 
-2022/12/07-02:40:28.075 265d Level-0 table #8: started
-2022/12/07-02:40:28.088 265d Level-0 table #8: 203427 bytes OK
-2022/12/07-02:40:28.102 265d Delete type=0 #4
-2022/12/07-02:40:28.103 265d Manual compaction at level-0 from '\x00(\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00)\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/13-14:43:01.389 9e97 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/13-14:43:01.389 9e97 Recovering log #27
+2022/12/13-14:43:01.390 9e97 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000027.log 
+2022/12/13-14:43:01.651 9e97 Compacting 1@1 + 1@2 files
+2022/12/13-14:43:01.669 9e97 Generated table #30@1: 2772 keys, 335690 bytes
+2022/12/13-14:43:01.669 9e97 Compacted 1@1 + 1@2 files => 335690 bytes
+2022/12/13-14:43:01.676 9e97 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/13-14:43:01.676 9e97 Delete type=2 #25
+2022/12/13-14:43:01.676 9e97 Delete type=2 #28
+2022/12/13-14:43:46.906 9e95 Level-0 table #32: started
+2022/12/13-14:43:46.914 9e95 Level-0 table #32: 310818 bytes OK
+2022/12/13-14:43:46.917 9e95 Delete type=0 #27
+2022/12/13-14:43:46.917 9e79 Manual compaction at level-0 from '\x00.\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00/\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/13-15:03:05.001 aa40 Compacting 1@1 + 1@2 files
+2022/12/13-15:03:05.025 aa40 Generated table #33@1: 2825 keys, 345615 bytes
+2022/12/13-15:03:05.025 aa40 Compacted 1@1 + 1@2 files => 345615 bytes
+2022/12/13-15:03:05.027 aa40 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/13-15:03:05.027 aa40 Delete type=2 #30
+2022/12/13-15:03:05.027 aa40 Delete type=2 #32

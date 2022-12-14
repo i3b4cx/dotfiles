@@ -1,0 +1,6 @@
+2022/12/09-14:00:16.548 58c6 Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.youtube-nocookie.com_0.indexeddb.leveldb since it was missing.
+2022/12/09-14:00:16.551 58c6 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/09-14:00:19.477 5893 Level-0 table #5: started
+2022/12/09-14:00:19.479 5893 Level-0 table #5: 879 bytes OK
+2022/12/09-14:00:19.483 5893 Delete type=0 #3
+2022/12/09-14:00:19.483 5893 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
