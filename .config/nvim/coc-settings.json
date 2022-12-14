@@ -13,6 +13,7 @@
     }
   },
   "html.autoClosingTags": true,
-  "inlayHint.display": false
+  "inlayHint.display": false,
+  "diagnostic.enable": false
 }
 
