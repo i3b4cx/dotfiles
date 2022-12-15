@@ -1,0 +1,6 @@
+2022/12/15-14:19:56.169 1c96 Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.nordtheme.com_0.indexeddb.leveldb since it was missing.
+2022/12/15-14:19:56.172 1c96 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.nordtheme.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/15-14:20:49.834 1c96 Level-0 table #5: started
+2022/12/15-14:20:49.838 1c96 Level-0 table #5: 3397 bytes OK
+2022/12/15-14:20:49.843 1c96 Delete type=0 #3
+2022/12/15-14:20:49.843 1c96 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

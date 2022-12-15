@@ -1,3 +1,6 @@
-2022/12/13-14:42:55.350 3 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Session Storage/MANIFEST-000001
-2022/12/13-14:42:55.351 3 Recovering log #61
-2022/12/13-14:42:55.352 3 Reusing old log /home/hpurdum/.config/chromium/Default/Session Storage/000061.log 
+2022/12/15-10:16:37.066 5 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Session Storage/MANIFEST-000001
+2022/12/15-10:16:37.070 5 Recovering log #64
+2022/12/15-10:16:37.072 5 Reusing old log /home/hpurdum/.config/chromium/Default/Session Storage/000064.log 
+2022/12/15-13:43:35.742 31 Level-0 table #68: started
+2022/12/15-13:43:35.769 31 Level-0 table #68: 21676 bytes OK
+2022/12/15-13:43:35.779 31 Delete type=0 #64

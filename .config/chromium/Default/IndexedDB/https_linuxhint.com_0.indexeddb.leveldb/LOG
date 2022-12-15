@@ -1,0 +1,6 @@
+2022/12/15-12:44:12.741 11f3 Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_linuxhint.com_0.indexeddb.leveldb since it was missing.
+2022/12/15-12:44:12.749 11f3 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_linuxhint.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/15-12:44:16.770 11c5 Level-0 table #5: started
+2022/12/15-12:44:16.773 11c5 Level-0 table #5: 4765 bytes OK
+2022/12/15-12:44:16.776 11c5 Delete type=0 #3
+2022/12/15-12:44:16.776 11c5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
