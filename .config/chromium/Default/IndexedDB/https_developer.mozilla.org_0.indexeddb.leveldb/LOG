@@ -1,0 +1,6 @@
+2023/01/03-16:18:12.370 9125 Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_developer.mozilla.org_0.indexeddb.leveldb since it was missing.
+2023/01/03-16:18:12.375 9125 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_developer.mozilla.org_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/03-16:21:15.842 904d Level-0 table #5: started
+2023/01/03-16:21:15.846 904d Level-0 table #5: 9302 bytes OK
+2023/01/03-16:21:15.851 904d Delete type=0 #3
+2023/01/03-16:21:15.851 9125 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

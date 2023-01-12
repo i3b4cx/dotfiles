@@ -1,0 +1,33 @@
+2023/01/06-12:01:56.035 4f41 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_outlook.office.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/06-12:01:56.035 4f41 Recovering log #10
+2023/01/06-12:01:56.035 4f41 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_outlook.office.com_0.indexeddb.leveldb/000010.log 
+2023/01/06-12:03:25.618 50d7 Level-0 table #14: started
+2023/01/06-12:03:25.621 50d7 Level-0 table #14: 1270 bytes OK
+2023/01/06-12:03:25.625 50d7 Delete type=0 #10
+2023/01/06-12:03:25.626 5165 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 172 : 1
+2023/01/06-12:03:25.626 5165 Compacting 1@0 + 1@1 files
+2023/01/06-12:03:25.628 5165 Generated table #15@0: 17 keys, 971 bytes
+2023/01/06-12:03:25.628 5165 Compacted 1@0 + 1@1 files => 971 bytes
+2023/01/06-12:03:25.632 5165 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/01/06-12:03:25.632 5165 Delete type=2 #14
+2023/01/06-12:03:25.633 50d7 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 172 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/01/06-12:10:37.727 56bd Level-0 table #17: started
+2023/01/06-12:10:37.729 56bd Level-0 table #17: 424 bytes OK
+2023/01/06-12:10:37.734 56bd Delete type=2 #11
+2023/01/06-12:10:37.734 56bd Delete type=0 #13
+2023/01/06-12:10:37.734 56bd Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x03\x01\x1f\x03\x00\xa0\xbb\xae\x8eWxB\x00\x01\x1f\x00@\x00m\x00s\x00/\x00o\x00f\x00f\x00i\x00c\x00e\x00-\x00f\x00l\x00u\x00i\x00d\x00-\x00c\x00o\x00n\x00t\x00a\x00i\x00n\x00e\x00r\x00_\x00P\x00r\x00o\x00d' @ 206 : 0
+2023/01/06-12:10:37.734 56bd Compacting 1@0 + 1@1 files
+2023/01/06-12:10:37.737 56bd Generated table #18@0: 19 keys, 988 bytes
+2023/01/06-12:10:37.737 56bd Compacted 1@0 + 1@1 files => 988 bytes
+2023/01/06-12:10:37.741 56bd compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/01/06-12:10:37.742 56bd Delete type=2 #15
+2023/01/06-12:10:37.742 56bd Delete type=2 #17
+2023/01/06-12:10:37.742 572a Manual compaction at level-0 from '\x00\x03\x01\x1f\x03\x00\xa0\xbb\xae\x8eWxB\x00\x01\x1f\x00@\x00m\x00s\x00/\x00o\x00f\x00f\x00i\x00c\x00e\x00-\x00f\x00l\x00u\x00i\x00d\x00-\x00c\x00o\x00n\x00t\x00a\x00i\x00n\x00e\x00r\x00_\x00P\x00r\x00o\x00d' @ 206 : 0 .. (end); will stop at (end)
+2023/01/06-12:10:37.742 572a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x1f\x03\x00PV\xd3\x8aXxB\x00\x01\x1f\x00@\x00m\x00s\x00/\x00o\x00f\x00f\x00i\x00c\x00e\x00-\x00f\x00l\x00u\x00i\x00d\x00-\x00c\x00o\x00n\x00t\x00a\x00i\x00n\x00e\x00r\x00_\x00P\x00r\x00o\x00d' @ 180 : 1
+2023/01/06-12:10:37.742 572a Compacting 1@1 + 1@2 files
+2023/01/06-12:10:37.745 572a Generated table #19@1: 39 keys, 1262 bytes
+2023/01/06-12:10:37.745 572a Compacted 1@1 + 1@2 files => 1262 bytes
+2023/01/06-12:10:37.752 572a compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/01/06-12:10:37.752 572a Delete type=2 #8
+2023/01/06-12:10:37.752 572a Delete type=2 #18
+2023/01/06-12:10:37.753 56bd Manual compaction at level-1 from '\x00\x03\x01\x1f\x03\x00PV\xd3\x8aXxB\x00\x01\x1f\x00@\x00m\x00s\x00/\x00o\x00f\x00f\x00i\x00c\x00e\x00-\x00f\x00l\x00u\x00i\x00d\x00-\x00c\x00o\x00n\x00t\x00a\x00i\x00n\x00e\x00r\x00_\x00P\x00r\x00o\x00d' @ 180 : 1 .. (end); will stop at (end)

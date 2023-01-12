@@ -1,2 +1,15 @@
-2022/12/15-10:21:14.096 a26 Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.tutorialspoint.com_0.indexeddb.leveldb since it was missing.
-2022/12/15-10:21:14.101 a26 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.tutorialspoint.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/03-12:47:32.016 859d Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.tutorialspoint.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/03-12:47:32.017 859d Recovering log #4
+2023/01/03-12:47:32.017 859d Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.tutorialspoint.com_0.indexeddb.leveldb/000004.log 
+2023/01/03-12:47:52.857 859d Level-0 table #8: started
+2023/01/03-12:47:52.859 859d Level-0 table #8: 209 bytes OK
+2023/01/03-12:47:52.863 859d Delete type=0 #4
+2023/01/03-12:47:52.863 859d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/01/03-12:47:52.863 859d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 419 : 1
+2023/01/03-12:47:52.863 859d Compacting 1@1 + 1@2 files
+2023/01/03-12:47:52.866 859d Generated table #9@1: 43 keys, 2031 bytes
+2023/01/03-12:47:52.866 859d Compacted 1@1 + 1@2 files => 2031 bytes
+2023/01/03-12:47:52.869 859d compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/01/03-12:47:52.869 859d Delete type=2 #5
+2023/01/03-12:47:52.869 859d Delete type=2 #8
+2023/01/03-12:47:52.870 859d Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 419 : 1 .. (end); will stop at (end)

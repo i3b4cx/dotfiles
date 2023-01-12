@@ -1,0 +1,7 @@
+2022/12/19-13:52:23.315 17f3 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.tutorialspoint.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/19-13:52:23.315 17f3 Recovering log #3
+2022/12/19-13:52:23.317 17f3 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.tutorialspoint.com_0.indexeddb.leveldb/000003.log 
+2022/12/19-14:15:55.979 1de0 Level-0 table #5: started
+2022/12/19-14:15:55.984 1de0 Level-0 table #5: 10100 bytes OK
+2022/12/19-14:15:55.988 1de0 Delete type=0 #3
+2022/12/19-14:15:55.989 1de0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -72,6 +72,12 @@ set winminheight=0
 let mapleader = ';'
 " Suppress netrw history
 let g:netrw_dirhistmax = 0
+" Set blinking curor on
+set guicursor=a:blinkon25
+
+" Set curosr line in insert
+autocmd InsertEnter,InsertLeave * set cul!
+
 
 """ Navigation
 
