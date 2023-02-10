@@ -1,31 +1,7 @@
-2022/12/16-14:48:41.103 1792 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/16-14:48:41.104 1792 Recovering log #31
-2022/12/16-14:48:41.106 1792 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000031.log 
-2022/12/16-14:49:06.967 16d9 Level-0 table #36: started
-2022/12/16-14:49:07.026 16d9 Level-0 table #36: 617683 bytes OK
-2022/12/16-14:49:07.029 16d9 Delete type=0 #31
-2022/12/16-14:49:07.029 17d4 Manual compaction at level-0 from '\x00/\x00\x00\x00' @ 72057594037927935 : 1 .. '\x000\x00\x00\x00' @ 0 : 0; will stop at (end)
-2022/12/16-15:53:41.112 1ddd Compacting 1@1 + 1@2 files
-2022/12/16-15:53:41.139 1ddd Level-0 table #39: started
-2022/12/16-15:53:41.142 1ddd Level-0 table #39: 36467 bytes OK
-2022/12/16-15:53:41.144 1ddd Delete type=0 #35
-2022/12/16-15:53:41.146 1ddd Generated table #37@1: 3049 keys, 392055 bytes
-2022/12/16-15:53:41.146 1ddd Compacted 1@1 + 1@2 files => 392055 bytes
-2022/12/16-15:53:41.148 1ddd compacted to: files[ 1 0 1 0 0 0 0 ]
-2022/12/16-15:53:41.148 1ddd Delete type=2 #33
-2022/12/16-15:53:41.148 1ddd Delete type=2 #36
-2022/12/16-15:53:41.148 1ddd Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x0e\x02\x02\x01\x17\x00C\x00o\x00n\x00v\x00e\x00r\x00s\x00a\x00t\x00i\x00o\x00n\x00S\x00t\x00a\x00r\x00t\x00u\x00p\x00I\x00n\x00f\x00o' @ 39549 : 1
-2022/12/16-15:53:41.148 1ddd Compacting 1@0 + 0@1 files
-2022/12/16-15:53:41.150 1ddd Generated table #40@0: 89 keys, 18638 bytes
-2022/12/16-15:53:41.150 1ddd Compacted 1@0 + 0@1 files => 18638 bytes
-2022/12/16-15:53:41.151 1ddd compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/12/16-15:53:41.151 1ddd Delete type=2 #39
-2022/12/16-15:53:41.151 1ddd Manual compaction at level-0 from '\x00\x0e\x02\x02\x01\x17\x00C\x00o\x00n\x00v\x00e\x00r\x00s\x00a\x00t\x00i\x00o\x00n\x00S\x00t\x00a\x00r\x00t\x00u\x00p\x00I\x00n\x00f\x00o' @ 39549 : 1 .. (end); will stop at (end)
-2022/12/16-15:53:41.151 1ddd Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x0e\x02\x02\x01\x17\x00C\x00o\x00n\x00v\x00e\x00r\x00s\x00a\x00t\x00i\x00o\x00n\x00S\x00t\x00a\x00r\x00t\x00u\x00p\x00I\x00n\x00f\x00o' @ 39549 : 1
-2022/12/16-15:53:41.151 1ddd Compacting 1@1 + 1@2 files
-2022/12/16-15:53:41.167 1ddd Generated table #41@1: 3011 keys, 390224 bytes
-2022/12/16-15:53:41.167 1ddd Compacted 1@1 + 1@2 files => 390224 bytes
-2022/12/16-15:53:41.169 1ddd compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/12/16-15:53:41.169 1ddd Delete type=2 #37
-2022/12/16-15:53:41.169 1ddd Delete type=2 #40
-2022/12/16-15:53:41.170 1ddd Manual compaction at level-1 from '\x00\x0e\x02\x02\x01\x17\x00C\x00o\x00n\x00v\x00e\x00r\x00s\x00a\x00t\x00i\x00o\x00n\x00S\x00t\x00a\x00r\x00t\x00u\x00p\x00I\x00n\x00f\x00o' @ 39549 : 1 .. (end); will stop at (end)
+2023/02/08-10:27:49.876 ed69 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/08-10:27:49.877 ed69 Recovering log #38
+2023/02/08-10:27:49.877 ed69 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000038.log 
+2023/02/08-10:28:32.313 ed40 Level-0 table #44: started
+2023/02/08-10:28:32.330 ed40 Level-0 table #44: 930760 bytes OK
+2023/02/08-10:28:32.331 ed40 Delete type=0 #38
+2023/02/08-10:28:32.332 ed68 Manual compaction at level-0 from '\x000\x00\x00\x00' @ 72057594037927935 : 1 .. '\x001\x00\x00\x00' @ 0 : 0; will stop at (end)

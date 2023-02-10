@@ -1,5 +1,5 @@
 window:
-  opacity: 1.0
+  opacity: 0.5
   padding:
     x: 10
     y: 10

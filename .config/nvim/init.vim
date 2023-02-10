@@ -50,8 +50,8 @@ set number
 set relativenumber
 " Visualize certain whitespace characters
 set list lcs=tab:\|\ ,trail:.,extends:>,precedes:<,nbsp:␣
-" Set indent to be 2 spaces
-set shiftwidth=2
+" Set indent to be 4 spaces
+set shiftwidth=4
 " Uses spaces to insert a <Tab>
 set expandtab
 " Lines with equal indent form a fold
