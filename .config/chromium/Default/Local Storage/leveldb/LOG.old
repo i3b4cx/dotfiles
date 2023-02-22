@@ -1,3 +1,6 @@
-2023/01/13-17:24:54.301 5 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2023/01/13-17:24:54.307 5 Recovering log #417
-2023/01/13-17:24:54.310 5 Reusing old log /home/hpurdum/.config/chromium/Default/Local Storage/leveldb/000417.log 
+2023/02/08-10:27:26.422 6 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2023/02/08-10:27:26.425 6 Recovering log #417
+2023/02/08-10:27:26.436 6 Reusing old log /home/hpurdum/.config/chromium/Default/Local Storage/leveldb/000417.log 
+2023/02/08-10:34:11.878 9 Level-0 table #422: started
+2023/02/08-10:34:11.887 9 Level-0 table #422: 318030 bytes OK
+2023/02/08-10:34:11.892 9 Delete type=0 #417

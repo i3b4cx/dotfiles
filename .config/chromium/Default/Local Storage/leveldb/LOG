@@ -1,6 +1,20 @@
-2023/02/08-10:27:26.422 6 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2023/02/08-10:27:26.425 6 Recovering log #417
-2023/02/08-10:27:26.436 6 Reusing old log /home/hpurdum/.config/chromium/Default/Local Storage/leveldb/000417.log 
-2023/02/08-10:34:11.878 9 Level-0 table #422: started
-2023/02/08-10:34:11.887 9 Level-0 table #422: 318030 bytes OK
-2023/02/08-10:34:11.892 9 Delete type=0 #417
+2023/02/21-10:39:56.443 5 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2023/02/21-10:39:56.451 5 Recovering log #421
+2023/02/21-10:39:56.470 5 Level-0 table #424: started
+2023/02/21-10:39:56.562 5 Level-0 table #424: 655893 bytes OK
+2023/02/21-10:39:56.591 5 Delete type=0 #421
+2023/02/21-10:41:01.161 5 Level-0 table #427: started
+2023/02/21-10:41:01.170 5 Level-0 table #427: 32376 bytes OK
+2023/02/21-10:41:01.198 5 Delete type=0 #425
+2023/02/21-10:54:26.952 9 Level-0 table #429: started
+2023/02/21-10:54:27.068 9 Level-0 table #429: 51286 bytes OK
+2023/02/21-10:54:27.071 9 Delete type=0 #426
+2023/02/21-10:54:27.071 9 Compacting 4@0 + 1@1 files
+2023/02/21-10:54:27.151 9 Generated table #430@0: 2295 keys, 1981450 bytes
+2023/02/21-10:54:27.152 9 Compacted 4@0 + 1@1 files => 1981450 bytes
+2023/02/21-10:54:27.156 9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/02/21-10:54:27.159 9 Delete type=2 #419
+2023/02/21-10:54:27.160 9 Delete type=2 #422
+2023/02/21-10:54:27.160 9 Delete type=2 #424
+2023/02/21-10:54:27.160 9 Delete type=2 #427
+2023/02/21-10:54:27.160 9 Delete type=2 #429
