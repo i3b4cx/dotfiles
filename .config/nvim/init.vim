@@ -11,11 +11,13 @@ Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle'}
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle'}
 " Aesthetics
-Plug 'arcticicestudio/nord-vim'
-Plug 'chriskempson/base16-vim'
+" Plug 'arcticicestudio/nord-vim'
+" Plug 'chriskempson/base16-vim'
 Plug 'vim-airline/vim-airline'
 " Plug 'tiagofumo/vim-nerdtree-syntax-highlight', { 'on': 'NERDTreeToggle'}
 Plug 'ryanoasis/vim-devicons', { 'on': 'NERDTreeToggle'}
+Plug 'sainnhe/gruvbox-material'
+Plug 'sainnhe/everforest'
 call plug#end()
 
 """ General Settings
@@ -122,11 +124,16 @@ let NERDTreeDirArrows = 1
 " let NERDTreeQuitOnOpen = 1
 
 " Aesthetics
-let base16colorspace=256
-colorscheme nord
+if has('termguicolors')
+	set termguicolors
+endif
+let g:everforest_background = 'soft'
+let g:everforest_better_performance = 1
+colorscheme everforest
 
 " Airline
 let g:airline_symbols = {}
+let g:ariline_theme = 'everforest'
 let g:airline_symbols.linenr = 'Ξ'
 let g:airline_powerline_fonts = 1
 let g:airline_skip_empty_sections = 1

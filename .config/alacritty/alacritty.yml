@@ -1,53 +1,56 @@
+import:
+- ~/.config/alacritty/gruvbox-material-alacritty.yml
+
 window:
-  opacity: 0.5
+  opacity: 1.0
   padding:
     x: 5
     y: 5
 
-colors:
-  primary:
-    # hard contrast: background = '0x1d2021'
-    background: '0x2E3440'
-    # soft contrast: background = '0x32302f'
-    foreground: '0xD8DEE9'
+#colors:
+#  primary:
+#    hard contrast: background = '0x1d2021'
+#    background: '0x2E3440'
+#    soft contrast: background = '0x32302f'
+#    foreground: '0xD8DEE9'
 
-  normal:
-    black:   '0x232831'
-    red:     '0xBF616A'
-    green:   '0xA3BE8C'
-    yellow:  '0xEBCB8B'
-    blue:    '0x5E81AC'
-    magenta: '0xB48EAD'
-    cyan:    '0x88C0D0'
-    white:   '0xFFFFFF'
+#  normal:
+#    black:   '0x232831'
+#    red:     '0xBF616A'
+#    green:   '0xA3BE8C'
+#    yellow:  '0xEBCB8B'
+#    blue:    '0x5E81AC'
+#    magenta: '0xB48EAD'
+#    cyan:    '0x88C0D0'
+#    white:   '0xFFFFFF'
 
-  bright:
-    black:   '0x434C5E'
-    red:     '0x880808'
-    green:   '0x097969'
-    yellow:  '0xE1C16E'
-    blue:    '0x0096FF'
-    magenta: '0xEE82EE'
-    cyan:    '0xE0FFFF'
-    white:   '0xEDEADE'
+#  bright:
+#    black:   '0x434C5E'
+#    red:     '0x880808'
+#    green:   '0x097969'
+#    yellow:  '0xE1C16E'
+#    blue:    '0x0096FF'
+#    magenta: '0xEE82EE'
+#    cyan:    '0xE0FFFF'
+#    white:   '0xEDEADE'
 
 # Font
 font:
   # Normal (roman) font face
   normal:
-    family: Fira Code
-    style: Regular
-
-  bold:
-    family: Fira Code
+    family: JetBrains Mono
     style: Bold
 
+  bold:
+    family: JetBrains Mono
+    style: Extrabold
+
   italic:
-    family: Fira Code
-    style: Italic
+    family: JetBrains Mono
+    style: Bold Italic
 
   bold_italic:
-    family: Fira Code
-    style: Bold Italic
+    family: JetBrains Mono
+    style: Extrabold Italic
 
   size: 8.0
