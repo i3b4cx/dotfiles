@@ -190,10 +190,10 @@ bar {
 	separator_symbol " "
   i3bar_command i3bar --transparency
 	colors {
-		background #2E344000
-		focused_workspace #EBCB8B #3B425200
-		active_workspace #EBCB8B #3B425200
-		inactive_workspace #BF616A #2E344000
+		background #2E3440AA
+		focused_workspace #EBCB8B #3B4252AA
+		active_workspace #EBCB8B #3B4252AA
+		inactive_workspace #BF616A #2E3440AA
 	}
   ## NEW BAR
   position top
@@ -201,7 +201,7 @@ bar {
   status_command ~/.config/i3status/bumblebee-status/bumblebee-status -m nic disk:root cpu \
     memory battery date time pasink pasource dnf \
     -p root.path=/ time.format="%H:%M CW %V" date.format="%a, %b %d %Y" \
-    -t iceberg-rainbow
+    -t gruvbox-powerline
 }
 
 exec_always --no-startup-id ~/.fehbg &
