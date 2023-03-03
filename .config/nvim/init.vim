@@ -109,8 +109,9 @@ let g:coc_global_extensions = [
 nnoremap <silent> <C-\> :NERDTreeToggle<CR>
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
-let NERDTreeMapOpenInTab = '\r'
-let NERDTreeCustomOpenArgs={'file':{'where': 't'}}
+" let NERDTreeQuitOnOpen = 1
+" let NERDTreeMapOpenInTab = '\r'
+" let NERDTreeCustomOpenArgs={'file':{'where': 't'}}
 
 " Aesthetics
 if has('termguicolors')

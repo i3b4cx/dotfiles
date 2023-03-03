@@ -15,5 +15,6 @@
   "html.autoClosingTags": true,
   "inlayHint.display": false,
   "diagnostic.enable": false,
+  "coc.preferences.jumpCommand": "tabe"
 }
 
