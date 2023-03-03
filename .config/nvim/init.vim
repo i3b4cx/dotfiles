@@ -84,10 +84,18 @@ nnoremap <silent> <C-J> :resize +5<CR>
 nnoremap <silent> <C-K> :resize -5<CR>
 nnoremap <silent> <C-L> :vertical resize +5<CR>
 
+" Buffer Navigation
+nnoremap <silent> bh :bf<CR>
+nnoremap <silent> bj :bp<CR>
+nnoremap <silent> bk :bn<CR>
+nnoremap <silent> bl :bl<CR>
+nnoremap <silent> bn :new<CR>
+nnoremap <silent> bd :bd<CR>
+
 " Tab Navigation
 nnoremap <silent> th :tabfirst<CR>
-nnoremap <silent> tj :tabnext<CR>
-nnoremap <silent> tk :tabprev<CR>
+nnoremap <silent> tj :tabprev<CR>
+nnoremap <silent> tk :tabnext<CR>
 nnoremap <silent> tl :tablast<CR>
 nnoremap <silent> td :tabclose<CR>
 nnoremap <silent> tn :tabnew<CR>
