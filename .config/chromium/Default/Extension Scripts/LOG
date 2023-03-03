@@ -1,2 +1,3 @@
-2022/12/06-14:54:47.227 1123 Creating DB /home/hpurdum/.config/chromium/Default/Extension Scripts since it was missing.
-2022/12/06-14:54:47.245 1123 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Extension Scripts/MANIFEST-000001
+2023/03/02-16:13:37.712 7de97 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Extension Scripts/MANIFEST-000001
+2023/03/02-16:13:37.713 7de97 Recovering log #3
+2023/03/02-16:13:37.713 7de97 Reusing old log /home/hpurdum/.config/chromium/Default/Extension Scripts/000003.log 

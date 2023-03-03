@@ -1,30 +1,18 @@
-""" Plugins
+"" Plugins
 call plug#begin('~/.local/share/nvim/plugged')
 " Autocompletion
 Plug 'neoclide/coc.nvim', { 'branch': 'release'}
-" Tools
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
 " Visuals
-Plug 'lilydjwg/colorizer'
 Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle'}
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle'}
 " Aesthetics
-" Plug 'arcticicestudio/nord-vim'
-" Plug 'chriskempson/base16-vim'
 Plug 'vim-airline/vim-airline'
-" Plug 'tiagofumo/vim-nerdtree-syntax-highlight', { 'on': 'NERDTreeToggle'}
 Plug 'ryanoasis/vim-devicons', { 'on': 'NERDTreeToggle'}
 Plug 'sainnhe/gruvbox-material'
-Plug 'sainnhe/everforest'
 call plug#end()
 
 """ General Settings
-" Be IMproved, required
-set nocompatible
-" Disable cursor changing https://git.io/JfbFH
-set guicursor=
 " For security
 set nomodeline
 " Load plugin files for specific file types
@@ -77,12 +65,6 @@ let g:netrw_dirhistmax = 0
 " Set blinking curor on
 set guicursor=a:blinkon25
 
-" Set curosr line in insert
-autocmd InsertEnter,InsertLeave * set cul!
-
-
-""" Navigation
-
 " Window Navigation
 nnoremap <silent> <leader>h <C-w>h
 nnoremap <silent> <leader>j <C-w>j
@@ -105,35 +87,37 @@ nnoremap <silent> tl :tablast<CR>
 nnoremap <silent> td :tabclose<CR>
 nnoremap <silent> tn :tabnew<CR>
 
-" Use g[jk] for vertical movement in wrapped lines when no count is specified
-nnoremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
-nnoremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
-
-" Center searches
-nnoremap <silent> n nzz
-nnoremap <silent> N Nzz
-nnoremap <silent> * *N
-
-""" Plugin Configurations
+" Coc
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+nnoremap <silent> <C-f> :exe 'CocList files'<CR>
+let g:coc_global_extensions = [
+    \ 'coc-lists',
+    \ 'coc-snippets',
+    \ 'coc-pairs',
+    \ 'coc-prettier',
+    \]
 
 " NerdTree
 nnoremap <silent> <C-\> :NERDTreeToggle<CR>
-nnoremap <leader>n :NERDTreeFind<CR>
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
-" let NERDTreeQuitOnOpen = 1
+let NERDTreeMapOpenInTab = '\r'
+let NERDTreeCustomOpenArgs={'file':{'where': 't'}}
 
 " Aesthetics
 if has('termguicolors')
 	set termguicolors
 endif
-let g:everforest_background = 'soft'
-let g:everforest_better_performance = 1
-colorscheme everforest
+let g:gruvbox_material_background = 'soft'
+let g:gruvbox_material_better_performance = 1
+colorscheme gruvbox-material
 
 " Airline
 let g:airline_symbols = {}
-let g:ariline_theme = 'everforest'
+let g:ariline_theme = 'gruvbox-material'
 let g:airline_symbols.linenr = 'Ξ'
 let g:airline_powerline_fonts = 1
 let g:airline_skip_empty_sections = 1
@@ -146,16 +130,7 @@ let g:airline_left_alt_sep=''
 let g:airline_right_sep=''
 let g:airline_right_alt_sep=''
 
-" Keybindings
-nnoremap <silent> <C-Space> :Files<CR>
-nnoremap <silent> <C-g> :Rg<CR>
-nnoremap <silent> <C-b> :Buffers<CR>
-nnoremap <silent> <C-c> :Commands<CR>
-nnoremap <silent> <space><space> :buffer #<CR>
-nnoremap <silent> <leader><space> :nohlsearch<CR>
-nnoremap <silent> <leader>/ :BLines<CR>
-nnoremap <silent> <leader>d :bp<bar>bd#<CR>
-
+" Other Keybindings
 nnoremap <silent> <leader>s :w<CR>
 nnoremap <silent> <leader>z :x<CR>
 nnoremap <silent> <leader>x :xa<CR>
@@ -163,48 +138,5 @@ nnoremap <silent> <leader>q :qa<CR>
 noremap <silent> <leader>y "+y
 nnoremap <silent> <leader><leader> ;
 
-" FZF
-let $FZF_DEFAULT_COMMAND =  "rg --files --hidden 2>/dev/null"
-let $FZF_DEFAULT_OPTS=' --color=dark
-      \ --color=fg:15,bg:-1,hl:1,fg+:#ffffff,bg+:0,hl+:1
-      \ --color=info:0,prompt:0,pointer:12,marker:4,spinner:11,header:-1
-      \ --layout=reverse --margin=1,4'
-" let g:fzf_layout = { 'window': 'call FloatingFZF()' }
-
-function! FloatingFZF()
-  let buf = nvim_create_buf(v:false, v:true)
-  call setbufvar(buf, '&signcolumn', 'no')
-  let height = float2nr(min([10, &lines/2]))
-  let width = float2nr(min([80, &columns/2]))
-  let horizontal = float2nr((&columns - width) / 2)
-  let vertical = 2
-  let opts = {
-        \ 'relative': 'editor',
-        \ 'row': vertical,
-        \ 'col': horizontal,
-        \ 'width': width,
-        \ 'height': height,
-        \ 'style': 'minimal'
-        \ }
-  call nvim_open_win(buf, v:true, opts)
-endfunction
-
-
-" Zoom/Restore window
-function! s:ZoomToggle() abort
-    if exists('t:zoomed') && t:zoomed
-        execute t:zoom_winrestcmd
-        let t:zoomed = 0
-    else
-        let t:zoom_winrestcmd = winrestcmd()
-        resize
-        vertical resize
-        let t:zoomed = 1
-    endif
-endfunction
-command! ZoomToggle call s:ZoomToggle()
-nnoremap <silent> <C-w>o :ZoomToggle<CR>
-
-nmap <silent> gd <Plug>(coc-definition)
 inoremap <silent><expr> <tab> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<TAB>"
 inoremap <silent><expr> <cr> "\<c-g>u\<CR>"
