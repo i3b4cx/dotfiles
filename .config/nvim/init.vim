@@ -13,6 +13,8 @@ Plug 'sainnhe/gruvbox-material'
 call plug#end()
 
 """ General Settings
+" Be IMproved, required
+set nocompatible
 " For security
 set nomodeline
 " Load plugin files for specific file types
@@ -64,6 +66,9 @@ let mapleader = ';'
 let g:netrw_dirhistmax = 0
 " Set blinking curor on
 set guicursor=a:blinkon25
+
+" Set cursor line in insert
+autocmd InsertEnter,InsertLeave * set cul!
 
 " Window Navigation
 nnoremap <silent> <leader>h <C-w>h
