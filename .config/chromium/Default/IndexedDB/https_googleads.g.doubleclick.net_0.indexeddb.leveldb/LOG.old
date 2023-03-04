@@ -1,0 +1,15 @@
+2023/02/17-01:22:51.482 385e Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/17-01:22:51.483 385e Recovering log #4
+2023/02/17-01:22:51.483 385e Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/000004.log 
+2023/02/17-01:22:58.518 385e Level-0 table #8: started
+2023/02/17-01:22:58.519 385e Level-0 table #8: 190 bytes OK
+2023/02/17-01:22:58.522 385e Delete type=0 #4
+2023/02/17-01:22:58.522 385e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/02/17-01:22:58.522 385e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 11 : 1
+2023/02/17-01:22:58.522 385e Compacting 1@1 + 1@2 files
+2023/02/17-01:22:58.523 385e Generated table #9@1: 9 keys, 393 bytes
+2023/02/17-01:22:58.523 385e Compacted 1@1 + 1@2 files => 393 bytes
+2023/02/17-01:22:58.525 385e compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/02/17-01:22:58.525 385e Delete type=2 #5
+2023/02/17-01:22:58.525 385e Delete type=2 #8
+2023/02/17-01:22:58.525 385e Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 11 : 1 .. (end); will stop at (end)

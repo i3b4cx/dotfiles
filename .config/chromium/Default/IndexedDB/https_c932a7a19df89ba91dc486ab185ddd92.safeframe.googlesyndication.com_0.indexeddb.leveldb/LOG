@@ -1,0 +1,6 @@
+2022/12/10-13:11:56.176 c68c Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_c932a7a19df89ba91dc486ab185ddd92.safeframe.googlesyndication.com_0.indexeddb.leveldb since it was missing.
+2022/12/10-13:11:56.177 c68c Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_c932a7a19df89ba91dc486ab185ddd92.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/10-13:12:18.038 c64d Level-0 table #5: started
+2022/12/10-13:12:18.038 c64d Level-0 table #5: 480 bytes OK
+2022/12/10-13:12:18.039 c64d Delete type=0 #3
+2022/12/10-13:12:18.039 c64d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

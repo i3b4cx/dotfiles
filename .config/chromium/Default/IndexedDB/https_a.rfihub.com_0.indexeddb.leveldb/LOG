@@ -1,0 +1,6 @@
+2022/12/10-04:17:43.904 8326 Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_a.rfihub.com_0.indexeddb.leveldb since it was missing.
+2022/12/10-04:17:43.906 8326 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_a.rfihub.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/10-04:18:32.891 83e1 Level-0 table #5: started
+2022/12/10-04:18:32.891 83e1 Level-0 table #5: 375 bytes OK
+2022/12/10-04:18:32.892 83e1 Delete type=0 #3
+2022/12/10-04:18:32.892 83e1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

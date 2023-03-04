@@ -1,11 +1,6 @@
 {
   "dependencies": {
-    "coc-json": ">=1.8.0",
-    "coc-pyright": ">=1.1.293",
-    "coc-lists": ">=1.5.1",
-    "coc-snippets": ">=3.1.6",
-    "coc-pairs": ">=1.4.2",
-    "coc-prettier": ">=9.3.1"
+    "coc-lists": ">=1.5.1"
   },
-  "lastUpdate": 1677883564159
+  "lastUpdate": 1677909871389
 }

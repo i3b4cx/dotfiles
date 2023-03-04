@@ -1,0 +1,25 @@
+2022/12/11-07:34:27.585 17f66 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_js.ad-score.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/11-07:34:27.585 17f66 Recovering log #186
+2022/12/11-07:34:27.585 17f66 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_js.ad-score.com_0.indexeddb.leveldb/000186.log 
+2022/12/11-07:34:27.585 17f66 Delete type=2 #185
+2022/12/11-07:34:27.618 17f8c Level-0 table #191: started
+2022/12/11-07:34:27.619 17f8c Level-0 table #191: 1019 bytes OK
+2022/12/11-07:34:27.623 17f8c Delete type=0 #186
+2022/12/11-07:34:27.623 17f66 Manual compaction at level-0 from '\x00;\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00<\x00\x00\x00' @ 0 : 0; will stop at '\x00;\x00\x00\xc8\x05\x00s\x00t\x00o\x00r\x00e' @ 2429 : 1
+2022/12/11-07:34:27.623 17f66 Compacting 1@0 + 1@1 files
+2022/12/11-07:34:27.624 17f66 Generated table #192@0: 5 keys, 264 bytes
+2022/12/11-07:34:27.624 17f66 Compacted 1@0 + 1@1 files => 264 bytes
+2022/12/11-07:34:27.625 17f66 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/11-07:34:27.625 17f66 Delete type=2 #191
+2022/12/11-07:34:27.625 17f66 Manual compaction at level-0 from '\x00;\x00\x00\xc8\x05\x00s\x00t\x00o\x00r\x00e' @ 2429 : 1 .. '\x00<\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/11-07:34:29.859 17f8c Level-0 table #194: started
+2022/12/11-07:34:29.859 17f8c Level-0 table #194: 513 bytes OK
+2022/12/11-07:34:29.860 17f8c Delete type=2 #188
+2022/12/11-07:34:29.860 17f8c Delete type=0 #190
+2022/12/11-07:34:29.860 17f8c Manual compaction at level-0 from '\x00<\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00=\x00\x00\x00' @ 0 : 0; will stop at '\x00<\x00\x00\x05' @ 2478 : 1
+2022/12/11-07:34:29.860 17f8c Compacting 1@0 + 1@1 files
+2022/12/11-07:34:29.861 17f8c Generated table #195@0: 5 keys, 264 bytes
+2022/12/11-07:34:29.861 17f8c Compacted 1@0 + 1@1 files => 264 bytes
+2022/12/11-07:34:29.862 17f8c compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/11-07:34:29.862 17f8c Delete type=2 #194
+2022/12/11-07:34:29.862 17f8c Manual compaction at level-0 from '\x00<\x00\x00\x05' @ 2478 : 1 .. '\x00=\x00\x00\x00' @ 0 : 0; will stop at (end)

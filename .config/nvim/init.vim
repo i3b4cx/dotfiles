@@ -107,10 +107,7 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 nnoremap <silent> <C-f> :exe 'CocList files'<CR>
 let g:coc_global_extensions = [
-    \ 'coc-lists',
-    \ 'coc-snippets',
-    \ 'coc-pairs',
-    \ 'coc-prettier',
+    \ 'coc-lists'
     \]
 
 " NerdTree
