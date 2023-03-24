@@ -28,7 +28,7 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork -i ~/github/wallpapers/wavbes.png
+# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork -i ~/github/wallpapers/wavbes.png
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -36,8 +36,8 @@ exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+bindsym $mod+plus exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
+bindsym $mod+minus exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
@@ -106,7 +106,7 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # lockscreen
-bindsym $mod+Shift+Return exec --no-startup-id i3lock -i ~/github/wallpapers/wavbes.png -t
+bindsym $mod+Shift+Return exec ~/.i3/i3lock-multimonitor/lock -i ~/github/wallpapers/cat-waves.png
 
 # focus the child container
 #bindsym $mod+d focus child
@@ -184,22 +184,9 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-    font pango:"Inconsolata for Powerline" bold 8
-    i3bar_command i3bar --transparency
-    colors {
-    background #2E3440AA
-        focused_workspace #EBCB8B #3B4252AA
-        active_workspace #EBCB8B #3B4252AA
-        inactive_workspace #BF616A #2E3440AA
-    }
-    position top
-    tray_output none
-    status_command ~/.config/i3status/bumblebee-status/bumblebee-status -m nic disk:root cpu \
-        memory battery date time pasink pasource dnf \
-        -p root.path=/ time.format="%H:%M CW %V" date.format="%a, %b %d %Y" \
-        -t gruvbox-powerline
-}
+#bar {
+#
+#}
 
 exec_always --no-startup-id ~/.fehbg &
 

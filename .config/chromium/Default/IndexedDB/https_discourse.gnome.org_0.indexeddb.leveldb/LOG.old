@@ -1,3 +1,15 @@
-2022/12/21-11:49:30.717 20b4 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_discourse.gnome.org_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/21-11:49:30.717 20b4 Recovering log #4
-2022/12/21-11:49:30.718 20b4 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_discourse.gnome.org_0.indexeddb.leveldb/000004.log 
+2023/03/06-14:25:53.292 1bb6 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_discourse.gnome.org_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/06-14:25:53.292 1bb6 Recovering log #4
+2023/03/06-14:25:53.308 1bb6 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_discourse.gnome.org_0.indexeddb.leveldb/000004.log 
+2023/03/06-14:29:49.698 fe05c Level-0 table #8: started
+2023/03/06-14:29:49.709 fe05c Level-0 table #8: 160640 bytes OK
+2023/03/06-14:29:49.712 fe05c Delete type=0 #4
+2023/03/06-14:29:49.713 fe05c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/03/06-14:29:49.713 fe05c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\x00\xc5\x8e\x90kxB\x00\x01K\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00.\x00g\x00n\x00o\x00m\x00e\x00.\x00o\x00r\x00g\x00/\x00i\x00m\x00a\x00g\x00e\x00s\x00/\x00e\x00m\x00o\x00j\x00i\x00/\x00t\x00w\x00i\x00t\x00t\x00e\x00r\x00/\x00h\x00e\x00a\x00r\x00t\x00.\x00p\x00n\x00g\x00?\x00v\x00=\x001\x002' @ 3913 : 1
+2023/03/06-14:29:49.713 fe05c Compacting 1@1 + 1@2 files
+2023/03/06-14:29:49.720 fe05c Generated table #9@1: 261 keys, 33953 bytes
+2023/03/06-14:29:49.720 fe05c Compacted 1@1 + 1@2 files => 33953 bytes
+2023/03/06-14:29:49.723 fe05c compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/03/06-14:29:49.723 fe05c Delete type=2 #5
+2023/03/06-14:29:49.723 fe05c Delete type=2 #8
+2023/03/06-14:29:49.724 fe05c Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\x00\xc5\x8e\x90kxB\x00\x01K\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00.\x00g\x00n\x00o\x00m\x00e\x00.\x00o\x00r\x00g\x00/\x00i\x00m\x00a\x00g\x00e\x00s\x00/\x00e\x00m\x00o\x00j\x00i\x00/\x00t\x00w\x00i\x00t\x00t\x00e\x00r\x00/\x00h\x00e\x00a\x00r\x00t\x00.\x00p\x00n\x00g\x00?\x00v\x00=\x001\x002' @ 3913 : 1 .. (end); will stop at (end)

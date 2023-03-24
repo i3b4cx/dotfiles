@@ -1,21 +1,5 @@
-2023/03/03-19:13:19.221 3 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Session Storage/MANIFEST-000001
-2023/03/03-19:13:19.251 3 Recovering log #133
-2023/03/03-19:13:19.253 3 Reusing old log /home/hpurdum/.config/chromium/Default/Session Storage/000133.log 
-2023/03/03-19:13:19.254 3 Delete type=0 #25
-2023/03/03-19:13:19.254 3 Delete type=0 #30
-2023/03/03-19:13:19.255 3 Delete type=0 #33
-2023/03/03-19:13:19.255 3 Delete type=0 #61
-2023/03/03-19:13:19.255 3 Delete type=0 #67
-2023/03/03-19:13:19.255 3 Delete type=0 #127
-2023/03/03-19:13:19.255 3 Delete type=0 #130
-2023/03/03-19:13:19.255 3 Delete type=2 #7
-2023/03/03-19:13:19.256 3 Delete type=0 #8
-2023/03/03-19:13:19.256 3 Delete type=2 #9
-2023/03/03-19:13:19.256 3 Delete type=2 #20
-2023/03/03-19:13:19.256 3 Delete type=2 #23
-2023/03/03-19:13:19.256 3 Delete type=2 #26
-2023/03/03-19:13:19.256 3 Delete type=2 #32
-2023/03/03-19:13:19.256 3 Delete type=2 #34
-2023/03/03-19:13:19.257 3 Delete type=2 #62
-2023/03/03-19:13:19.257 3 Delete type=2 #65
-2023/03/03-19:13:19.257 3 Delete type=2 #68
+2023/03/24-16:06:25.893 3 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Session Storage/MANIFEST-000001
+2023/03/24-16:06:25.894 3 Recovering log #54
+2023/03/24-16:06:25.895 3 Level-0 table #58: started
+2023/03/24-16:06:25.897 3 Level-0 table #58: 18562 bytes OK
+2023/03/24-16:06:25.901 3 Delete type=0 #54

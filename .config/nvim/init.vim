@@ -8,9 +8,13 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle'}
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle'}
 " Aesthetics
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons', { 'on': 'NERDTreeToggle'}
-Plug 'sainnhe/gruvbox-material'
+"Plug 'sainnhe/gruvbox-material'
+Plug 'Mofiqul/dracula.nvim'
 call plug#end()
+
+set termguicolors
 
 """ General Settings
 " Be IMproved, required
@@ -122,13 +126,13 @@ let NERDTreeDirArrows = 1
 if has('termguicolors')
 	set termguicolors
 endif
-let g:gruvbox_material_background = 'soft'
-let g:gruvbox_material_better_performance = 1
-colorscheme gruvbox-material
+"let g:gruvbox_material_background = 'soft'
+"let g:gruvbox_material_better_performance = 1
+colorscheme dracula
 
 " Airline
 let g:airline_symbols = {}
-let g:ariline_theme = 'gruvbox-material'
+let g:airline_theme = 'base16_dracula'
 let g:airline_symbols.linenr = 'Ξ'
 let g:airline_powerline_fonts = 1
 let g:airline_skip_empty_sections = 1

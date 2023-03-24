@@ -1,3 +1,5 @@
-2023/03/02-16:31:16.448 7f18a Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Site Characteristics Database/MANIFEST-000001
-2023/03/02-16:31:16.449 7f18a Recovering log #3
-2023/03/02-16:31:16.451 7f18a Reusing old log /home/hpurdum/.config/chromium/Default/Site Characteristics Database/000003.log 
+2023/03/24-16:04:26.624 99c Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Site Characteristics Database/MANIFEST-000001
+2023/03/24-16:04:26.628 99c Recovering log #3
+2023/03/24-16:04:26.634 99c (ignoring error) /home/hpurdum/.config/chromium/Default/Site Characteristics Database/000003.log: dropping 65 bytes; Corruption: bad record length
+2023/03/24-16:04:26.635 99c (ignoring error) /home/hpurdum/.config/chromium/Default/Site Characteristics Database/000003.log: dropping 26583 bytes; Corruption: checksum mismatch
+2023/03/24-16:04:26.635 99c Reusing old log /home/hpurdum/.config/chromium/Default/Site Characteristics Database/000003.log 

@@ -14,6 +14,6 @@
   },
   "html.autoClosingTags": true,
   "inlayHint.display": false,
-  "diagnostic.enable": false,
+  "diagnostic.enable": false
 }
 
