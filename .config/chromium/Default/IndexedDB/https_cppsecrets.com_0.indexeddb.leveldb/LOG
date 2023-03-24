@@ -1,0 +1,6 @@
+2023/03/20-15:30:49.175 1bb6 Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_cppsecrets.com_0.indexeddb.leveldb since it was missing.
+2023/03/20-15:30:49.180 1bb6 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_cppsecrets.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/20-15:31:00.230 2461df Level-0 table #5: started
+2023/03/20-15:31:00.232 2461df Level-0 table #5: 1140 bytes OK
+2023/03/20-15:31:00.235 2461df Delete type=0 #3
+2023/03/20-15:31:00.235 2461df Manual compaction at level-0 from (begin) .. (end); will stop at (end)

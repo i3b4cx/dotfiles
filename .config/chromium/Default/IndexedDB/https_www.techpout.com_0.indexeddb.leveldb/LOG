@@ -1,0 +1,6 @@
+2023/03/24-11:55:53.037 6502 Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.techpout.com_0.indexeddb.leveldb since it was missing.
+2023/03/24-11:55:53.039 6502 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.techpout.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/24-11:56:03.927 6503 Level-0 table #5: started
+2023/03/24-11:56:03.930 6503 Level-0 table #5: 5832 bytes OK
+2023/03/24-11:56:03.934 6503 Delete type=0 #3
+2023/03/24-11:56:03.934 6503 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
