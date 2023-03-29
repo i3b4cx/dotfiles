@@ -1,16 +1,4 @@
-2023/03/24-14:27:41.254 83a Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/24-14:27:41.255 83a Recovering log #87
-2023/03/24-14:27:41.261 83a Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000087.log 
-2023/03/24-14:27:41.692 83c Manual compaction at level-0 from '\x00:\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00;\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/03/24-14:27:41.692 83c Manual compaction at level-1 from '\x00:\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00;\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/03/24-14:27:41.697 845 Level-0 table #92: started
-2023/03/24-14:27:41.712 845 Level-0 table #92: 450269 bytes OK
-2023/03/24-14:27:41.716 845 Delete type=0 #87
-2023/03/24-14:27:41.717 839 Manual compaction at level-0 from '\x00;\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00<\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/03/24-14:27:41.718 839 Manual compaction at level-1 from '\x00;\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00<\x00\x00\x00' @ 0 : 0; will stop at '\x00;\x01\x02\x01\x17\x00T\x00r\x00o\x00u\x00t\x00e\x00r\x00C\x00o\x00n\x00n\x00e\x00c\x00t\x00i\x00o\x00n\x00P\x00a\x00r\x00a\x00m\x00s' @ 133091 : 0
-2023/03/24-14:27:41.718 839 Compacting 1@1 + 1@2 files
-2023/03/24-14:27:41.757 839 Generated table #93@1: 4068 keys, 594853 bytes
-2023/03/24-14:27:41.757 839 Compacted 1@1 + 1@2 files => 594853 bytes
-2023/03/24-14:27:41.760 839 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/03/24-14:27:41.760 839 Delete type=2 #92
-2023/03/24-14:27:41.761 839 Manual compaction at level-1 from '\x00;\x01\x02\x01\x17\x00T\x00r\x00o\x00u\x00t\x00e\x00r\x00C\x00o\x00n\x00n\x00e\x00c\x00t\x00i\x00o\x00n\x00P\x00a\x00r\x00a\x00m\x00s' @ 133091 : 0 .. '\x00<\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/03/27-12:18:22.637 81d Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/27-12:18:22.637 81d Recovering log #107
+2023/03/27-12:18:22.637 81d Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000107.log 
+2023/03/27-12:37:41.024 8017 Manual compaction at level-0 from '\x00B\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00C\x00\x00\x00' @ 0 : 0; will stop at (end)

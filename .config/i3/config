@@ -207,3 +207,4 @@ set $refresh_i3status killall -SIGUSR1 i3status
 exec_always --no-startup-id eval "$(ssh-agent -s)"
 
 exec_always --no-startup-id picom &
+

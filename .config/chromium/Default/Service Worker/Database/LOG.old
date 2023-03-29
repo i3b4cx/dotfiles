@@ -1,9 +1,9 @@
-2023/03/24-16:04:26.805 96a Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Service Worker/Database/MANIFEST-000001
-2023/03/24-16:04:26.805 96a Recovering log #3
-2023/03/24-16:04:26.809 96a (ignoring error) /home/hpurdum/.config/chromium/Default/Service Worker/Database/000003.log: dropping 10383 bytes; Corruption: bad record length
-2023/03/24-16:04:26.809 96a (ignoring error) /home/hpurdum/.config/chromium/Default/Service Worker/Database/000003.log: dropping 32768 bytes; Corruption: checksum mismatch
-2023/03/24-16:04:26.809 96a (ignoring error) /home/hpurdum/.config/chromium/Default/Service Worker/Database/000003.log: dropping 32768 bytes; Corruption: checksum mismatch
-2023/03/24-16:04:26.809 96a (ignoring error) /home/hpurdum/.config/chromium/Default/Service Worker/Database/000003.log: dropping 32768 bytes; Corruption: checksum mismatch
-2023/03/24-16:04:26.809 96a (ignoring error) /home/hpurdum/.config/chromium/Default/Service Worker/Database/000003.log: dropping 32768 bytes; Corruption: bad record length
-2023/03/24-16:04:26.809 96a (ignoring error) /home/hpurdum/.config/chromium/Default/Service Worker/Database/000003.log: dropping 65 bytes; Corruption: missing start of fragmented record(2)
-2023/03/24-16:04:26.809 96a Reusing old log /home/hpurdum/.config/chromium/Default/Service Worker/Database/000003.log 
+2023/03/28-17:54:08.177 1d252 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Service Worker/Database/MANIFEST-000001
+2023/03/28-17:54:08.177 1d252 Recovering log #3
+2023/03/28-17:54:08.196 1d252 (ignoring error) /home/hpurdum/.config/chromium/Default/Service Worker/Database/000003.log: dropping 10383 bytes; Corruption: bad record length
+2023/03/28-17:54:08.196 1d252 (ignoring error) /home/hpurdum/.config/chromium/Default/Service Worker/Database/000003.log: dropping 32768 bytes; Corruption: checksum mismatch
+2023/03/28-17:54:08.196 1d252 (ignoring error) /home/hpurdum/.config/chromium/Default/Service Worker/Database/000003.log: dropping 32768 bytes; Corruption: checksum mismatch
+2023/03/28-17:54:08.196 1d252 (ignoring error) /home/hpurdum/.config/chromium/Default/Service Worker/Database/000003.log: dropping 32768 bytes; Corruption: checksum mismatch
+2023/03/28-17:54:08.196 1d252 (ignoring error) /home/hpurdum/.config/chromium/Default/Service Worker/Database/000003.log: dropping 32768 bytes; Corruption: bad record length
+2023/03/28-17:54:08.197 1d252 (ignoring error) /home/hpurdum/.config/chromium/Default/Service Worker/Database/000003.log: dropping 65 bytes; Corruption: missing start of fragmented record(2)
+2023/03/28-17:54:08.197 1d252 Reusing old log /home/hpurdum/.config/chromium/Default/Service Worker/Database/000003.log 
