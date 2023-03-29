@@ -210,6 +210,4 @@ set $refresh_i3status killall -SIGUSR1 i3status
 # start ssh-agent in the background
 exec_always --no-startup-id eval "$(ssh-agent -s)"
 
-exec_always --no-startup-id picom &
-
-exec_always --no-startup-id swaybg -i ~/github/wallpapers/8bit/435922.jpg
+exec_always --no-startup-id swaybg -i ~/github/wallpapers/8bit/338101.png

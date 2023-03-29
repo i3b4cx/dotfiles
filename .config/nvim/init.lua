@@ -1,7 +1,9 @@
 vim.o.termguicolors = true
 vim.o.syntax = 'on'
 vim.o.errorbells = false
-vim.o.smartcase = true
+vim.opt.smartcase = true
+vim.opt.ignorecase = true
+vim.opt.laststatus=0
 vim.o.showmode = false
 vim.bo.swapfile = false
 vim.o.backup = false

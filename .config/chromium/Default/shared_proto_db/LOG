@@ -1,9 +1,9 @@
-2023/03/28-17:56:17.008 1d76e Reusing MANIFEST /home/hpurdum/.config/chromium/Default/shared_proto_db/MANIFEST-000001
-2023/03/28-17:56:17.010 1d76e Recovering log #3
-2023/03/28-17:56:17.043 1d76e (ignoring error) /home/hpurdum/.config/chromium/Default/shared_proto_db/000003.log: dropping 19 bytes; Corruption: bad record length
-2023/03/28-17:56:17.043 1d76e (ignoring error) /home/hpurdum/.config/chromium/Default/shared_proto_db/000003.log: dropping 32768 bytes; Corruption: checksum mismatch
-2023/03/28-17:56:17.043 1d76e (ignoring error) /home/hpurdum/.config/chromium/Default/shared_proto_db/000003.log: dropping 32768 bytes; Corruption: checksum mismatch
-2023/03/28-17:56:17.043 1d76e (ignoring error) /home/hpurdum/.config/chromium/Default/shared_proto_db/000003.log: dropping 32768 bytes; Corruption: checksum mismatch
-2023/03/28-17:56:17.043 1d76e (ignoring error) /home/hpurdum/.config/chromium/Default/shared_proto_db/000003.log: dropping 32768 bytes; Corruption: checksum mismatch
-2023/03/28-17:56:17.043 1d76e (ignoring error) /home/hpurdum/.config/chromium/Default/shared_proto_db/000003.log: dropping 129 bytes; Corruption: missing start of fragmented record(2)
-2023/03/28-17:56:17.048 1d76e Reusing old log /home/hpurdum/.config/chromium/Default/shared_proto_db/000003.log 
+2023/03/29-14:29:22.418 806b Reusing MANIFEST /home/hpurdum/.config/chromium/Default/shared_proto_db/MANIFEST-000001
+2023/03/29-14:29:22.418 806b Recovering log #3
+2023/03/29-14:29:22.425 806b (ignoring error) /home/hpurdum/.config/chromium/Default/shared_proto_db/000003.log: dropping 19 bytes; Corruption: bad record length
+2023/03/29-14:29:22.425 806b (ignoring error) /home/hpurdum/.config/chromium/Default/shared_proto_db/000003.log: dropping 32768 bytes; Corruption: checksum mismatch
+2023/03/29-14:29:22.425 806b (ignoring error) /home/hpurdum/.config/chromium/Default/shared_proto_db/000003.log: dropping 32768 bytes; Corruption: checksum mismatch
+2023/03/29-14:29:22.425 806b (ignoring error) /home/hpurdum/.config/chromium/Default/shared_proto_db/000003.log: dropping 32768 bytes; Corruption: checksum mismatch
+2023/03/29-14:29:22.425 806b (ignoring error) /home/hpurdum/.config/chromium/Default/shared_proto_db/000003.log: dropping 32768 bytes; Corruption: checksum mismatch
+2023/03/29-14:29:22.425 806b (ignoring error) /home/hpurdum/.config/chromium/Default/shared_proto_db/000003.log: dropping 129 bytes; Corruption: missing start of fragmented record(2)
+2023/03/29-14:29:22.427 806b Reusing old log /home/hpurdum/.config/chromium/Default/shared_proto_db/000003.log 

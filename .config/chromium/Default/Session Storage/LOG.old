@@ -1,3 +1,21 @@
-2023/03/28-17:54:17.605 3 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Session Storage/MANIFEST-000001
-2023/03/28-17:54:17.609 3 Recovering log #143
-2023/03/28-17:54:17.621 3 Reusing old log /home/hpurdum/.config/chromium/Default/Session Storage/000143.log 
+2023/03/29-10:57:28.768 3 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Session Storage/MANIFEST-000001
+2023/03/29-10:57:28.771 3 Recovering log #151
+2023/03/29-10:57:28.772 3 Reusing old log /home/hpurdum/.config/chromium/Default/Session Storage/000151.log 
+2023/03/29-11:17:17.413 3 Level-0 table #155: started
+2023/03/29-11:17:17.416 3 Level-0 table #155: 30227 bytes OK
+2023/03/29-11:17:17.421 3 Delete type=0 #151
+2023/03/29-11:17:17.421 3 Compacting 4@0 + 1@1 files
+2023/03/29-11:17:17.438 3 Generated table #156@0: 4964 keys, 213761 bytes
+2023/03/29-11:17:17.438 3 Compacted 4@0 + 1@1 files => 213761 bytes
+2023/03/29-11:17:17.441 3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/29-11:17:17.443 3 Delete type=2 #145
+2023/03/29-11:17:17.443 3 Delete type=2 #148
+2023/03/29-11:17:17.443 3 Delete type=2 #150
+2023/03/29-11:17:17.444 3 Delete type=2 #152
+2023/03/29-11:17:17.444 3 Delete type=2 #155
+2023/03/29-12:28:01.409 3 Level-0 table #158: started
+2023/03/29-12:28:01.412 3 Level-0 table #158: 71487 bytes OK
+2023/03/29-12:28:01.418 3 Delete type=0 #154
+2023/03/29-14:06:35.375 2e Level-0 table #160: started
+2023/03/29-14:06:35.381 2e Level-0 table #160: 46275 bytes OK
+2023/03/29-14:06:35.384 2e Delete type=0 #157

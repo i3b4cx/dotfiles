@@ -1,4 +1,13 @@
-2023/03/27-09:43:02.990 81e Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_outlook.office365.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/27-09:43:02.991 81e Recovering log #31
-2023/03/27-09:43:02.991 81e Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_outlook.office365.com_0.indexeddb.leveldb/000031.log 
-2023/03/27-09:43:02.991 81e Delete type=2 #29
+2023/03/29-14:29:39.770 805f Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_outlook.office365.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/29-14:29:39.771 805f Recovering log #47
+2023/03/29-14:29:39.771 805f Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_outlook.office365.com_0.indexeddb.leveldb/000047.log 
+2023/03/29-14:29:40.984 8062 Level-0 table #51: started
+2023/03/29-14:29:40.987 8062 Level-0 table #51: 1198 bytes OK
+2023/03/29-14:29:40.990 8062 Delete type=0 #47
+2023/03/29-14:29:40.990 805f Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0d\x00\x00\x05' @ 492 : 1
+2023/03/29-14:29:40.990 805f Compacting 1@0 + 1@1 files
+2023/03/29-14:29:40.991 805f Generated table #52@0: 17 keys, 967 bytes
+2023/03/29-14:29:40.991 805f Compacted 1@0 + 1@1 files => 967 bytes
+2023/03/29-14:29:40.993 805f compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/29-14:29:40.993 805f Delete type=2 #51
+2023/03/29-14:29:40.993 805f Manual compaction at level-0 from '\x00\x0d\x00\x00\x05' @ 492 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)
