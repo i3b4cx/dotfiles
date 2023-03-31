@@ -64,46 +64,41 @@ package_root = util.join_paths(vim.fn.stdpath('data'), 'site', 'pack')
 
 --- startup and add configure plugins
 packer.startup(function()
-local use = use
-  use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
-  use 'sheerun/vim-polyglot'
-  use {'neoclide/coc.nvim', branch = 'release'}
-  use 'nvim-lua/popup.nvim'
-  use 'nvim-lua/plenary.nvim'
-  use 'nvim-lua/telescope.nvim'
-  use 'jremmen/vim-ripgrep'
-  use {
-    'goolord/alpha-nvim',
-    requires = { 'nvim-tree/nvim-web-devicons' },
-    config = function ()
-        require'alpha'.setup(require'alpha.themes.startify'.config)
+  local use = use
+    use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
+    use 'sheerun/vim-polyglot'
+    use {'neoclide/coc.nvim', branch = 'release'}
+    use 'nvim-lua/popup.nvim'
+    use 'nvim-lua/plenary.nvim'
+    use 'nvim-lua/telescope.nvim'
+    use 'jremmen/vim-ripgrep'
+    use {
+      'goolord/alpha-nvim',
+      requires = { 'nvim-tree/nvim-web-devicons' },
+      config = function ()
+          require'alpha'.setup(require'alpha.themes.startify'.config)
+      end
+    }
+    use 'nvim-tree/nvim-web-devicons'
+    use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
+    use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+      require("toggleterm").setup({shade_terminals = false})
     end
-  }
-  use 'nvim-tree/nvim-web-devicons'
-  use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
-  use {"akinsho/toggleterm.nvim", tag = '*', config = function()
-    require("toggleterm").setup()
-  end}
-  use {
-    'nvim-tree/nvim-tree.lua',
-    requires = {
-      'nvim-tree/nvim-web-devicons', -- optional
-    },
-  }
-  -- these are optional themes but I hear good things about gloombuddy ;)
-  -- colorbuddy allows us to run the gloombuddy theme
-  use { "catppuccin/nvim", as = "catppuccin" }
-  use 'Yazeed1s/minimal.nvim'
-  use 'folke/tokyonight.nvim'
-  use 'tiagovla/tokyodark.nvim'
-  -- sneaking some formatting in here too
-  use {'prettier/vim-prettier', run = 'yarn install' }
-  --use {
-  --  'nvim-lualine/lualine.nvim',
-  --  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-  --}
-  use "lukas-reineke/indent-blankline.nvim"
-  end
+    }
+    -- these are optional themes but I hear good things about gloombuddy ;)
+    -- colorbuddy allows us to run the gloombuddy theme
+    use { "catppuccin/nvim", as = "catppuccin" }
+    use 'Yazeed1s/minimal.nvim'
+    use 'folke/tokyonight.nvim'
+    use 'tiagovla/tokyodark.nvim'
+    -- sneaking some formatting in here too
+    use {'prettier/vim-prettier', run = 'yarn install' }
+    --use {
+    --  'nvim-lualine/lualine.nvim',
+    --  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    --}
+    use "lukas-reineke/indent-blankline.nvim"
+    end
 )
 
 vim.cmd.colorscheme "catppuccin"
@@ -192,8 +187,6 @@ key_mapper('n', '<leader>fs', ':lua require"telescope.builtin".live_grep()<CR>')
 key_mapper('n', '<leader>fh', ':lua require"telescope.builtin".help_tags()<CR>')
 key_mapper('n', '<leader>fb', ':lua require"telescope.builtin".buffers()<CR>')
 
-key_mapper('n', '<C-t>', ':ToggleTerm<CR>')
-
 key_mapper('n', '<C-f>', ':NvimTreeToggle<CR>')
 
 key_mapper("n", "gd", "<Plug>(coc-definition)", {silent = true})
@@ -203,6 +196,8 @@ key_mapper("n", "gr", "<Plug>(coc-references)", {silent = true})
 
 local keyset = vim.keymap.set
 local opts = {silent = true, noremap = true, expr = true, replace_keycodes = false}
-keyset("i", "<TAB>", 'coc#pum#visible() ? coc#pum#next(1) : v:lua.check_back_space() ? "<TAB>" : coc#refresh()', opts)
-keyset("i", "<S-TAB>", [[coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"]], opts)
+
 keyset("i", "<cr>", [[coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"]], opts)
+vim.cmd('autocmd TermEnter term://*toggleterm#* tnoremap <silent><c-t> <Cmd>exe v:count1 . "ToggleTerm"<CR>')
+vim.cmd('nnoremap <silent><c-t> <Cmd>exe v:count1 . "ToggleTerm"<CR>')
+vim.cmd('inoremap <silent><c-t> <Esc><Cmd>exe v:count1 . "ToggleTerm"<CR>')

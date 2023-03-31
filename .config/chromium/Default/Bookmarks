@@ -4,6 +4,7 @@
       "bookmark_bar": {
          "children": [ {
             "date_added": "13314841894256323",
+            "date_last_used": "13324691621956906",
             "guid": "e00b5ec7-4e04-4251-ba49-f64b9a4c7fa8",
             "id": "5",
             "name": "",
@@ -11,6 +12,7 @@
             "url": "https://github.com/hpurdum?tab=repositories"
          }, {
             "date_added": "13314995479537558",
+            "date_last_used": "0",
             "guid": "10f61c85-cc36-4074-a49d-b695e2834ec6",
             "id": "7",
             "name": "",
@@ -18,6 +20,7 @@
             "url": "https://ronnieschaniel.medium.com/object-oriented-design-patterns-explained-using-practical-examples-84807445b092"
          }, {
             "date_added": "13315712718898195",
+            "date_last_used": "0",
             "guid": "5301fb2f-b043-47d5-a76b-ea19994a60d4",
             "id": "9",
             "name": "GLib.SourceFuncs",
@@ -25,6 +28,7 @@
             "url": "https://docs.gtk.org/glib/struct.SourceFuncs.html"
          } ],
          "date_added": "13314840887160922",
+         "date_last_used": "0",
          "date_modified": "13315712718898195",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
@@ -34,6 +38,7 @@
       "other": {
          "children": [  ],
          "date_added": "13314840887160925",
+         "date_last_used": "0",
          "date_modified": "0",
          "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
          "id": "2",
@@ -43,6 +48,7 @@
       "synced": {
          "children": [  ],
          "date_added": "13314840887160949",
+         "date_last_used": "0",
          "date_modified": "0",
          "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
          "id": "3",
