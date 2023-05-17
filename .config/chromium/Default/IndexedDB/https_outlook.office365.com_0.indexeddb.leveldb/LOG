@@ -1,5 +1,4 @@
-2023/03/31-09:41:00.175 795 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_outlook.office365.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/31-09:41:00.177 795 Recovering log #58
-2023/03/31-09:41:00.177 795 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_outlook.office365.com_0.indexeddb.leveldb/000058.log 
-2023/03/31-09:41:00.177 795 Delete type=2 #56
-2023/03/31-09:41:16.191 79a Manual compaction at level-0 from '\x00\x10\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/05/09-13:07:34.864 152dc0 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_outlook.office365.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/09-13:07:34.864 152dc0 Recovering log #88
+2023/05/09-13:07:34.864 152dc0 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_outlook.office365.com_0.indexeddb.leveldb/000088.log 
+2023/05/09-13:07:34.865 152dc0 Delete type=2 #86

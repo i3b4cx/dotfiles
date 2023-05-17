@@ -1,56 +1,13 @@
-2023/03/27-09:42:24.625 81d Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/27-09:42:24.626 81d Recovering log #91
-2023/03/27-09:42:24.645 81d Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000091.log 
-2023/03/27-09:42:24.645 81d Delete type=2 #89
-2023/03/27-09:42:24.915 81d Level-0 table #96: started
-2023/03/27-09:42:24.943 81d Level-0 table #96: 778577 bytes OK
-2023/03/27-09:42:24.946 81d Delete type=0 #91
-2023/03/27-09:42:24.947 81d Manual compaction at level-0 from '\x00=\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00>\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/03/27-09:42:24.949 81d Level-0 table #98: started
-2023/03/27-09:42:24.952 81d Level-0 table #98: 1634 bytes OK
-2023/03/27-09:42:24.957 81d Delete type=0 #95
-2023/03/27-09:42:24.957 81d Manual compaction at level-0 from '\x00>\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00?\x00\x00\x00' @ 0 : 0; will stop at '\x00>\x01\x02\x01\x17\x00T\x00r\x00o\x00u\x00t\x00e\x00r\x00C\x00o\x00n\x00n\x00e\x00c\x00t\x00i\x00o\x00n\x00P\x00a\x00r\x00a\x00m\x00s' @ 142134 : 0
-2023/03/27-09:42:24.957 81d Compacting 1@0 + 1@1 files
-2023/03/27-09:42:24.973 81d Generated table #99@0: 2621 keys, 143516 bytes
-2023/03/27-09:42:24.973 81d Compacted 1@0 + 1@1 files => 143516 bytes
-2023/03/27-09:42:24.975 81d compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/03/27-09:42:24.976 81d Delete type=2 #98
-2023/03/27-09:42:24.978 81d Manual compaction at level-0 from '\x00>\x01\x02\x01\x17\x00T\x00r\x00o\x00u\x00t\x00e\x00r\x00C\x00o\x00n\x00n\x00e\x00c\x00t\x00i\x00o\x00n\x00P\x00a\x00r\x00a\x00m\x00s' @ 142134 : 0 .. '\x00?\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/03/27-09:42:32.493 81e Compacting 1@1 + 1@2 files
-2023/03/27-09:42:32.513 81e Generated table #100@1: 4068 keys, 593953 bytes
-2023/03/27-09:42:32.513 81e Compacted 1@1 + 1@2 files => 593953 bytes
-2023/03/27-09:42:32.516 81e compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/03/27-09:42:32.516 81e Delete type=2 #96
-2023/03/27-09:42:40.208 81e Level-0 table #102: started
-2023/03/27-09:42:40.241 81e Level-0 table #102: 1158813 bytes OK
-2023/03/27-09:42:40.244 81e Delete type=2 #93
-2023/03/27-09:42:40.244 81e Delete type=0 #97
-2023/03/27-09:42:40.244 81e Delete type=2 #99
-2023/03/27-09:42:42.155 81e Compacting 1@1 + 1@2 files
-2023/03/27-09:42:42.181 81e Generated table #103@1: 5830 keys, 989707 bytes
-2023/03/27-09:42:42.181 81e Compacted 1@1 + 1@2 files => 989707 bytes
-2023/03/27-09:42:42.183 81e compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/03/27-09:42:42.183 81e Delete type=2 #100
-2023/03/27-09:42:42.183 81e Delete type=2 #102
-2023/03/27-09:42:49.300 81f Level-0 table #105: started
-2023/03/27-09:42:49.311 81f Level-0 table #105: 217061 bytes OK
-2023/03/27-09:42:49.316 81f Delete type=0 #101
-2023/03/27-09:42:49.317 81d Manual compaction at level-0 from '\x00A\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00B\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/03/27-09:42:50.416 81e Compacting 1@1 + 1@2 files
-2023/03/27-09:42:50.461 81e Generated table #106@1: 5735 keys, 960517 bytes
-2023/03/27-09:42:50.461 81e Compacted 1@1 + 1@2 files => 960517 bytes
-2023/03/27-09:42:50.464 81e compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/03/27-09:42:50.464 81e Delete type=2 #103
-2023/03/27-09:42:50.464 81e Delete type=2 #105
-2023/03/27-12:18:22.248 705a Level-0 table #108: started
-2023/03/27-12:18:22.262 705a Level-0 table #108: 386370 bytes OK
-2023/03/27-12:18:22.288 705a Delete type=0 #104
-2023/03/27-12:18:22.288 705a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2023/03/27-12:18:22.288 705a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00@\x01\x02\x01\x17\x00T\x00r\x00o\x00u\x00t\x00e\x00r\x00C\x00o\x00n\x00n\x00e\x00c\x00t\x00i\x00o\x00n\x00P\x00a\x00r\x00a\x00m\x00s' @ 160318 : 1
-2023/03/27-12:18:22.289 705a Compacting 1@1 + 1@2 files
-2023/03/27-12:18:22.335 705a Generated table #109@1: 5534 keys, 943877 bytes
-2023/03/27-12:18:22.335 705a Compacted 1@1 + 1@2 files => 943877 bytes
-2023/03/27-12:18:22.338 705a compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/03/27-12:18:22.338 705a Delete type=2 #106
-2023/03/27-12:18:22.338 705a Delete type=2 #108
-2023/03/27-12:18:22.338 705a Manual compaction at level-1 from '\x00@\x01\x02\x01\x17\x00T\x00r\x00o\x00u\x00t\x00e\x00r\x00C\x00o\x00n\x00n\x00e\x00c\x00t\x00i\x00o\x00n\x00P\x00a\x00r\x00a\x00m\x00s' @ 160318 : 1 .. (end); will stop at (end)
+2023/05/16-15:02:01.072 10f8 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/16-15:02:01.073 10f8 Recovering log #352
+2023/05/16-15:02:01.074 10f8 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000352.log 
+2023/05/16-15:02:38.797 10f9 Level-0 table #357: started
+2023/05/16-15:02:38.800 10f9 Level-0 table #357: 136284 bytes OK
+2023/05/16-15:02:38.802 10f9 Delete type=0 #352
+2023/05/16-15:02:38.803 10f8 Manual compaction at level-0 from '\x00u\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00v\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/05/16-15:03:59.931 10fa Compacting 1@1 + 1@2 files
+2023/05/16-15:03:59.952 10fa Generated table #358@1: 5621 keys, 1010388 bytes
+2023/05/16-15:03:59.952 10fa Compacted 1@1 + 1@2 files => 1010388 bytes
+2023/05/16-15:03:59.954 10fa compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/16-15:03:59.954 10fa Delete type=2 #354
+2023/05/16-15:03:59.954 10fa Delete type=2 #357

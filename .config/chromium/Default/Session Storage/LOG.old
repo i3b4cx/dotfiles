@@ -1,30 +1,9 @@
-2023/03/30-09:41:49.902 3 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Session Storage/MANIFEST-000001
-2023/03/30-09:41:49.904 3 Recovering log #165
-2023/03/30-09:41:49.906 3 Reusing old log /home/hpurdum/.config/chromium/Default/Session Storage/000165.log 
-2023/03/30-09:57:51.359 a Level-0 table #170: started
-2023/03/30-09:57:51.361 a Level-0 table #170: 51217 bytes OK
-2023/03/30-09:57:51.364 a Delete type=0 #165
-2023/03/30-10:01:36.309 e Level-0 table #172: started
-2023/03/30-10:01:36.312 e Level-0 table #172: 56260 bytes OK
-2023/03/30-10:01:36.315 e Delete type=0 #169
-2023/03/30-12:38:19.727 3 Level-0 table #174: started
-2023/03/30-12:38:19.732 3 Level-0 table #174: 83197 bytes OK
-2023/03/30-12:38:19.748 3 Delete type=0 #171
-2023/03/30-12:43:08.626 3 Level-0 table #176: started
-2023/03/30-12:43:08.631 3 Level-0 table #176: 47063 bytes OK
-2023/03/30-12:43:08.636 3 Delete type=0 #173
-2023/03/30-12:43:08.637 3 Compacting 4@0 + 1@1 files
-2023/03/30-12:43:08.656 3 Generated table #177@0: 5437 keys, 303568 bytes
-2023/03/30-12:43:08.656 3 Compacted 4@0 + 1@1 files => 303568 bytes
-2023/03/30-12:43:08.658 3 compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/03/30-12:43:08.661 3 Delete type=2 #167
-2023/03/30-12:43:08.661 3 Delete type=2 #170
-2023/03/30-12:43:08.662 3 Delete type=2 #172
-2023/03/30-12:43:08.662 3 Delete type=2 #174
-2023/03/30-12:43:08.662 3 Delete type=2 #176
-2023/03/30-13:17:22.740 43 Level-0 table #179: started
-2023/03/30-13:17:22.743 43 Level-0 table #179: 22116 bytes OK
-2023/03/30-13:17:22.747 43 Delete type=0 #175
-2023/03/30-15:36:59.665 3 Level-0 table #181: started
-2023/03/30-15:36:59.671 3 Level-0 table #181: 115904 bytes OK
-2023/03/30-15:36:59.679 3 Delete type=0 #178
+2023/05/16-14:42:42.352 3 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Session Storage/MANIFEST-000001
+2023/05/16-14:42:42.353 3 Recovering log #424
+2023/05/16-14:42:42.354 3 Reusing old log /home/hpurdum/.config/chromium/Default/Session Storage/000424.log 
+2023/05/16-14:42:59.859 4 Level-0 table #428: started
+2023/05/16-14:42:59.863 4 Level-0 table #428: 35586 bytes OK
+2023/05/16-14:42:59.867 4 Delete type=0 #424
+2023/05/16-14:43:05.803 4 Level-0 table #430: started
+2023/05/16-14:43:05.811 4 Level-0 table #430: 65664 bytes OK
+2023/05/16-14:43:05.819 4 Delete type=0 #427

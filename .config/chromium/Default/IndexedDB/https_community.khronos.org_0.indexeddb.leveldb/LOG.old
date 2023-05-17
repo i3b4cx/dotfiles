@@ -1,0 +1,6 @@
+2023/04/04-13:56:28.288 795 Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_community.khronos.org_0.indexeddb.leveldb since it was missing.
+2023/04/04-13:56:28.292 795 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_community.khronos.org_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/04-13:58:23.082 c349 Level-0 table #5: started
+2023/04/04-13:58:23.089 c349 Level-0 table #5: 57864 bytes OK
+2023/04/04-13:58:23.092 c349 Delete type=0 #3
+2023/04/04-13:58:23.093 c349 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

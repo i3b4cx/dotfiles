@@ -1,2 +1,7 @@
-2022/12/06-15:01:15.350 13f2 Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb since it was missing.
-2022/12/06-15:01:15.355 13f2 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/04-14:09:31.624 a942 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/04-14:09:31.624 a942 Recovering log #3
+2023/01/04-14:09:31.625 a942 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
+2023/01/04-14:10:03.850 a942 Level-0 table #5: started
+2023/01/04-14:10:03.851 a942 Level-0 table #5: 2408 bytes OK
+2023/01/04-14:10:03.853 a942 Delete type=0 #3
+2023/01/04-14:10:03.853 a942 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

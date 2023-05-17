@@ -3,7 +3,7 @@ vim.o.syntax = 'on'
 vim.o.errorbells = false
 vim.opt.smartcase = true
 vim.opt.ignorecase = true
-vim.opt.laststatus=0
+vim.opt.laststatus = 3
 vim.o.showmode = false
 vim.bo.swapfile = false
 vim.o.backup = false
@@ -72,6 +72,7 @@ packer.startup(function()
     use 'nvim-lua/plenary.nvim'
     use 'nvim-lua/telescope.nvim'
     use 'jremmen/vim-ripgrep'
+    use 'nvim-tree/nvim-tree.lua'
     use {
       'goolord/alpha-nvim',
       requires = { 'nvim-tree/nvim-web-devicons' },
@@ -87,65 +88,66 @@ packer.startup(function()
     }
     -- these are optional themes but I hear good things about gloombuddy ;)
     -- colorbuddy allows us to run the gloombuddy theme
-    use { "catppuccin/nvim", as = "catppuccin" }
-    use 'Yazeed1s/minimal.nvim'
-    use 'folke/tokyonight.nvim'
-    use 'tiagovla/tokyodark.nvim'
+    -- use { "catppuccin/nvim", as = "catppuccin" }
     -- sneaking some formatting in here too
     use {'prettier/vim-prettier', run = 'yarn install' }
-    --use {
-    --  'nvim-lualine/lualine.nvim',
-    --  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-    --}
     use "lukas-reineke/indent-blankline.nvim"
+    use {"rose-pine/neovim", as = "rose-pine"}
     end
 )
 
-vim.cmd.colorscheme "catppuccin"
+require('rose-pine').setup({
+	--- @usage 'auto'|'main'|'moon'|'dawn'
+	variant = 'moon',
+	--- @usage 'main'|'moon'|'dawn'
+	dark_variant = 'main',
+	bold_vert_split = false,
+	dim_nc_background = false,
+	disable_background = false,
+	disable_float_background = false,
+	disable_italics = false,
 
-require("catppuccin").setup({
-    flavour = "mocha", -- latte, frappe, macchiato, mocha
-    background = { -- :h background
-        light = "latte",
-        dark = "mocha",
-    },
-    transparent_background = false,
-    show_end_of_buffer = false, -- show the '~' characters after the end of buffers
-    term_colors = false,
-    dim_inactive = {
-        enabled = false,
-        shade = "dark",
-        percentage = 0.15,
-    },
-    no_italic = false, -- Force no italic
-    no_bold = false, -- Force no bold
-    styles = {
-        comments = { "italic" },
-        conditionals = { "italic" },
-        loops = {},
-        functions = {},
-        keywords = {},
-        strings = {},
-        variables = {},
-        numbers = {},
-        booleans = {},
-        properties = {},
-        types = {},
-        operators = {},
-    },
-    color_overrides = {},
-    custom_highlights = {},
-    integrations = {
-        cmp = true,
-        gitsigns = true,
-        nvimtree = true,
-        telescope = true,
-        notify = false,
-        mini = false,
-        -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
-    },
+	--- @usage string hex value or named color from rosepinetheme.com/palette
+	groups = {
+		background = 'base',
+		background_nc = '_experimental_nc',
+		panel = 'surface',
+		panel_nc = 'base',
+		border = 'highlight_med',
+		comment = 'muted',
+		link = 'iris',
+		punctuation = 'subtle',
+
+		error = 'love',
+		hint = 'iris',
+		info = 'foam',
+		warn = 'gold',
+
+		headings = {
+			h1 = 'iris',
+			h2 = 'foam',
+			h3 = 'rose',
+			h4 = 'gold',
+			h5 = 'pine',
+			h6 = 'foam',
+		}
+		-- or set all headings at once
+		-- headings = 'subtle'
+	},
+
+	-- Change specific vim highlight groups
+	-- https://github.com/rose-pine/neovim/wiki/Recipes
+	highlight_groups = {
+		ColorColumn = { bg = 'rose' },
+
+		-- Blend colours against the "base" background
+		CursorLine = { bg = 'foam', blend = 10 },
+		StatusLine = { fg = 'love', bg = 'love', blend = 10 },
+	}
 })
 
+-- Set colorscheme after options
+vim.cmd('colorscheme rose-pine')
 -- setup must be called before loading
 
 local configs = require'nvim-treesitter.configs'
@@ -169,18 +171,6 @@ require("nvim-tree").setup({
     dotfiles = true,
   },
 })
-
-key_mapper('n', 'gd', ':lua vim.lsp.buf.definition()<CR>')
-key_mapper('n', 'gD', ':lua vim.lsp.buf.declaration()<CR>')
-key_mapper('n', 'gi', ':lua vim.lsp.buf.implementation()<CR>')
-key_mapper('n', 'gw', ':lua vim.lsp.buf.document_symbol()<CR>')
-key_mapper('n', 'gW', ':lua vim.lsp.buf.workspace_symbol()<CR>')
-key_mapper('n', 'gr', ':lua vim.lsp.buf.references()<CR>')
-key_mapper('n', 'gt', ':lua vim.lsp.buf.type_definition()<CR>')
-key_mapper('n', 'K', ':lua vim.lsp.buf.hover()<CR>')
-key_mapper('n', '<c-k>', ':lua vim.lsp.buf.signature_help()<CR>')
-key_mapper('n', '<leader>af', ':lua vim.lsp.buf.code_action()<CR>')
-key_mapper('n', '<leader>rn', ':lua vim.lsp.buf.rename()<CR>')
 
 key_mapper('n', '<C-space>', ':lua require"telescope.builtin".find_files()<CR>')
 key_mapper('n', '<leader>fs', ':lua require"telescope.builtin".live_grep()<CR>')

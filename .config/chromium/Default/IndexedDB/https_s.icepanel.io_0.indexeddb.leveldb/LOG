@@ -1,0 +1,6 @@
+2023/04/11-16:32:15.926 d71d Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_s.icepanel.io_0.indexeddb.leveldb since it was missing.
+2023/04/11-16:32:15.930 d71d Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_s.icepanel.io_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/11-16:32:54.873 356c4 Level-0 table #5: started
+2023/04/11-16:32:54.876 356c4 Level-0 table #5: 1252 bytes OK
+2023/04/11-16:32:54.881 356c4 Delete type=0 #3
+2023/04/11-16:32:54.881 356c4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

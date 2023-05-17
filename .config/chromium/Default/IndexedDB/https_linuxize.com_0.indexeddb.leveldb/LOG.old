@@ -1,6 +1,3 @@
-2022/12/08-11:35:31.155 263e Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb since it was missing.
-2022/12/08-11:35:31.167 263e Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/08-11:36:16.195 2720 Level-0 table #5: started
-2022/12/08-11:36:16.199 2720 Level-0 table #5: 2516 bytes OK
-2022/12/08-11:36:16.203 2720 Delete type=0 #3
-2022/12/08-11:36:16.203 2720 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/04/06-15:58:10.861 114be Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/06-15:58:10.861 114be Recovering log #11
+2023/04/06-15:58:10.861 114be Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/000011.log 

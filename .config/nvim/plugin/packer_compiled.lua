@@ -85,11 +85,6 @@ _G.packer_plugins = {
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/barbar.nvim",
     url = "https://github.com/romgrk/barbar.nvim"
   },
-  catppuccin = {
-    loaded = true,
-    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/catppuccin",
-    url = "https://github.com/catppuccin/nvim"
-  },
   ["coc.nvim"] = {
     loaded = true,
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/coc.nvim",
@@ -100,10 +95,10 @@ _G.packer_plugins = {
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
-  ["minimal.nvim"] = {
+  ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/minimal.nvim",
-    url = "https://github.com/Yazeed1s/minimal.nvim"
+    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -125,6 +120,11 @@ _G.packer_plugins = {
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
+  ["rose-pine"] = {
+    loaded = true,
+    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/rose-pine",
+    url = "https://github.com/rose-pine/neovim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -135,16 +135,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
-  },
-  ["tokyodark.nvim"] = {
-    loaded = true,
-    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/tokyodark.nvim",
-    url = "https://github.com/tiagovla/tokyodark.nvim"
-  },
-  ["tokyonight.nvim"] = {
-    loaded = true,
-    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["vim-polyglot"] = {
     loaded = true,
@@ -164,14 +154,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: alpha-nvim
-time([[Config for alpha-nvim]], true)
-try_loadstring("\27LJ\2\n`\0\0\5\0\5\0\n6\0\0\0'\2\1\0B\0\2\0029\0\2\0006\2\0\0'\4\3\0B\2\2\0029\2\4\2B\0\2\1K\0\1\0\vconfig\26alpha.themes.startify\nsetup\nalpha\frequire\0", "config", "alpha-nvim")
-time([[Config for alpha-nvim]], false)
 -- Config for: toggleterm.nvim
 time([[Config for toggleterm.nvim]], true)
 try_loadstring("\27LJ\2\nP\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\20shade_terminals\1\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
 time([[Config for toggleterm.nvim]], false)
+-- Config for: alpha-nvim
+time([[Config for alpha-nvim]], true)
+try_loadstring("\27LJ\2\n`\0\0\5\0\5\0\n6\0\0\0'\2\1\0B\0\2\0029\0\2\0006\2\0\0'\4\3\0B\2\2\0029\2\4\2B\0\2\1K\0\1\0\vconfig\26alpha.themes.startify\nsetup\nalpha\frequire\0", "config", "alpha-nvim")
+time([[Config for alpha-nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
