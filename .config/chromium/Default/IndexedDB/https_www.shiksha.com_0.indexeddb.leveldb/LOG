@@ -1,0 +1,6 @@
+2023/05/22-10:15:37.443 1792 Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.shiksha.com_0.indexeddb.leveldb since it was missing.
+2023/05/22-10:15:37.447 1792 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.shiksha.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/22-10:15:40.260 1793 Level-0 table #5: started
+2023/05/22-10:15:40.263 1793 Level-0 table #5: 873 bytes OK
+2023/05/22-10:15:40.267 1793 Delete type=0 #3
+2023/05/22-10:15:40.267 1793 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

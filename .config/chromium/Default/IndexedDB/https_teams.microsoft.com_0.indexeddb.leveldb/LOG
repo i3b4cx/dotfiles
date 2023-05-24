@@ -1,8 +1,22 @@
-2023/05/16-19:14:16.221 10f8 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/05/16-19:14:16.221 10f8 Recovering log #356
-2023/05/16-19:14:16.222 10f8 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000356.log 
-2023/05/17-09:38:36.863 10f9 Manual compaction at level-0 from '\x00v\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00w\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/05/17-11:46:36.697 10fa Level-0 table #361: started
-2023/05/17-11:46:36.722 10fa Level-0 table #361: 1017565 bytes OK
-2023/05/17-11:46:36.724 10fa Delete type=0 #356
-2023/05/17-11:46:36.726 10f8 Manual compaction at level-0 from '\x00w\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00x\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/05/19-14:54:52.208 1792 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/19-14:54:52.209 1792 Recovering log #367
+2023/05/19-14:54:52.212 1792 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000367.log 
+2023/05/19-14:55:20.209 17a0 Level-0 table #373: started
+2023/05/19-14:55:20.216 17a0 Level-0 table #373: 178619 bytes OK
+2023/05/19-14:55:20.222 17a0 Delete type=0 #367
+2023/05/19-14:55:20.222 1792 Manual compaction at level-0 from '\x00y\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00z\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/05/19-15:15:54.377 1793 Compacting 1@1 + 1@2 files
+2023/05/19-15:15:54.416 1793 Generated table #374@1: 5857 keys, 1037964 bytes
+2023/05/19-15:15:54.416 1793 Compacted 1@1 + 1@2 files => 1037964 bytes
+2023/05/19-15:15:54.418 1793 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/19-15:15:54.418 1793 Delete type=2 #370
+2023/05/19-15:15:54.418 1793 Delete type=2 #373
+2023/05/22-09:54:00.131 1793 Level-0 table #376: started
+2023/05/22-09:54:00.150 1793 Level-0 table #376: 1920415 bytes OK
+2023/05/22-09:54:00.155 1793 Delete type=0 #372
+2023/05/22-09:57:46.339 1793 Compacting 1@1 + 1@2 files
+2023/05/22-09:57:46.391 1793 Generated table #377@1: 5949 keys, 1062876 bytes
+2023/05/22-09:57:46.391 1793 Compacted 1@1 + 1@2 files => 1062876 bytes
+2023/05/22-09:57:46.393 1793 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/22-09:57:46.393 1793 Delete type=2 #374
+2023/05/22-09:57:46.393 1793 Delete type=2 #376

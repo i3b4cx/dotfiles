@@ -1,23 +1,23 @@
-2023/05/16-15:18:44.658 10f8 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_outlook.office.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/05/16-15:18:44.658 10f8 Recovering log #112
-2023/05/16-15:18:44.658 10f8 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_outlook.office.com_0.indexeddb.leveldb/000112.log 
-2023/05/16-15:18:44.658 10f8 Delete type=2 #110
-2023/05/16-15:18:46.779 10fa Level-0 table #117: started
-2023/05/16-15:18:46.781 10fa Level-0 table #117: 1006 bytes OK
-2023/05/16-15:18:46.785 10fa Delete type=0 #112
-2023/05/16-15:18:46.786 10fa Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x03\x01\x1f\x03\x00`IOj\x82xB\x00\x01\x1f\x00@\x00m\x00s\x00/\x00o\x00f\x00f\x00i\x00c\x00e\x00-\x00f\x00l\x00u\x00i\x00d\x00-\x00c\x00o\x00n\x00t\x00a\x00i\x00n\x00e\x00r\x00_\x00P\x00r\x00o\x00d' @ 1096 : 1
-2023/05/16-15:18:46.786 10fa Compacting 1@0 + 1@1 files
-2023/05/16-15:18:46.788 10fa Generated table #118@0: 31 keys, 7329 bytes
-2023/05/16-15:18:46.788 10fa Compacted 1@0 + 1@1 files => 7329 bytes
-2023/05/16-15:18:46.793 10fa compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/05/16-15:18:46.793 10fa Delete type=2 #114
-2023/05/16-15:18:46.793 10fa Delete type=2 #117
-2023/05/16-15:18:46.793 10fa Manual compaction at level-0 from '\x00\x03\x01\x1f\x03\x00`IOj\x82xB\x00\x01\x1f\x00@\x00m\x00s\x00/\x00o\x00f\x00f\x00i\x00c\x00e\x00-\x00f\x00l\x00u\x00i\x00d\x00-\x00c\x00o\x00n\x00t\x00a\x00i\x00n\x00e\x00r\x00_\x00P\x00r\x00o\x00d' @ 1096 : 1 .. (end); will stop at (end)
-2023/05/16-15:18:46.794 10fa Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x1f\x03\x00`IOj\x82xB\x00\x01\x1f\x00@\x00m\x00s\x00/\x00o\x00f\x00f\x00i\x00c\x00e\x00-\x00f\x00l\x00u\x00i\x00d\x00-\x00c\x00o\x00n\x00t\x00a\x00i\x00n\x00e\x00r\x00_\x00P\x00r\x00o\x00d' @ 1096 : 1
-2023/05/16-15:18:46.794 10fa Compacting 1@1 + 1@2 files
-2023/05/16-15:18:46.796 10fa Generated table #119@1: 42 keys, 7565 bytes
-2023/05/16-15:18:46.796 10fa Compacted 1@1 + 1@2 files => 7565 bytes
-2023/05/16-15:18:46.799 10fa compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/05/16-15:18:46.800 10fa Delete type=2 #99
-2023/05/16-15:18:46.800 10fa Delete type=2 #118
-2023/05/16-15:18:46.800 10fa Manual compaction at level-1 from '\x00\x03\x01\x1f\x03\x00`IOj\x82xB\x00\x01\x1f\x00@\x00m\x00s\x00/\x00o\x00f\x00f\x00i\x00c\x00e\x00-\x00f\x00l\x00u\x00i\x00d\x00-\x00c\x00o\x00n\x00t\x00a\x00i\x00n\x00e\x00r\x00_\x00P\x00r\x00o\x00d' @ 1096 : 1 .. (end); will stop at (end)
+2023/05/19-16:29:38.695 1792 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_outlook.office.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/19-16:29:38.695 1792 Recovering log #148
+2023/05/19-16:29:38.695 1792 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_outlook.office.com_0.indexeddb.leveldb/000148.log 
+2023/05/19-16:29:38.695 1792 Delete type=2 #146
+2023/05/19-16:29:40.778 1792 Level-0 table #153: started
+2023/05/19-16:29:40.781 1792 Level-0 table #153: 1050 bytes OK
+2023/05/19-16:29:40.786 1792 Delete type=0 #148
+2023/05/19-16:29:40.786 1794 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x03\x01\x1f\x03\x00\xa0\x1a\x8fe\x83xB\x00\x01\x1f\x00@\x00m\x00s\x00/\x00o\x00f\x00f\x00i\x00c\x00e\x00-\x00f\x00l\x00u\x00i\x00d\x00-\x00c\x00o\x00n\x00t\x00a\x00i\x00n\x00e\x00r\x00_\x00P\x00r\x00o\x00d' @ 1334 : 1
+2023/05/19-16:29:40.786 1794 Compacting 1@0 + 1@1 files
+2023/05/19-16:29:40.788 1794 Generated table #154@0: 41 keys, 6091 bytes
+2023/05/19-16:29:40.788 1794 Compacted 1@0 + 1@1 files => 6091 bytes
+2023/05/19-16:29:40.791 1794 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/05/19-16:29:40.791 1794 Delete type=2 #150
+2023/05/19-16:29:40.791 1794 Delete type=2 #153
+2023/05/19-16:29:40.792 1792 Manual compaction at level-0 from '\x00\x03\x01\x1f\x03\x00\xa0\x1a\x8fe\x83xB\x00\x01\x1f\x00@\x00m\x00s\x00/\x00o\x00f\x00f\x00i\x00c\x00e\x00-\x00f\x00l\x00u\x00i\x00d\x00-\x00c\x00o\x00n\x00t\x00a\x00i\x00n\x00e\x00r\x00_\x00P\x00r\x00o\x00d' @ 1334 : 1 .. (end); will stop at (end)
+2023/05/19-16:29:40.792 1792 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x1f\x03\x00\xa0\x1a\x8fe\x83xB\x00\x01\x1f\x00@\x00m\x00s\x00/\x00o\x00f\x00f\x00i\x00c\x00e\x00-\x00f\x00l\x00u\x00i\x00d\x00-\x00c\x00o\x00n\x00t\x00a\x00i\x00n\x00e\x00r\x00_\x00P\x00r\x00o\x00d' @ 1334 : 1
+2023/05/19-16:29:40.792 1792 Compacting 1@1 + 1@2 files
+2023/05/19-16:29:40.796 1792 Generated table #155@1: 41 keys, 6208 bytes
+2023/05/19-16:29:40.796 1792 Compacted 1@1 + 1@2 files => 6208 bytes
+2023/05/19-16:29:40.798 1792 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/19-16:29:40.798 1792 Delete type=2 #119
+2023/05/19-16:29:40.798 1792 Delete type=2 #154
+2023/05/19-16:29:40.799 17a0 Manual compaction at level-1 from '\x00\x03\x01\x1f\x03\x00\xa0\x1a\x8fe\x83xB\x00\x01\x1f\x00@\x00m\x00s\x00/\x00o\x00f\x00f\x00i\x00c\x00e\x00-\x00f\x00l\x00u\x00i\x00d\x00-\x00c\x00o\x00n\x00t\x00a\x00i\x00n\x00e\x00r\x00_\x00P\x00r\x00o\x00d' @ 1334 : 1 .. (end); will stop at (end)
