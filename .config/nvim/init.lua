@@ -3,7 +3,7 @@ vim.o.syntax = 'on'
 vim.o.errorbells = false
 vim.opt.smartcase = true
 vim.opt.ignorecase = true
-vim.opt.laststatus = 3
+vim.opt.laststatus = 0
 vim.o.showmode = false
 vim.bo.swapfile = false
 vim.o.backup = false
@@ -88,17 +88,39 @@ packer.startup(function()
     }
     -- these are optional themes but I hear good things about gloombuddy ;)
     -- colorbuddy allows us to run the gloombuddy theme
-    -- use { "catppuccin/nvim", as = "catppuccin" }
+    use { "catppuccin/nvim", as = "catppuccin" }
     -- sneaking some formatting in here too
     use {'prettier/vim-prettier', run = 'yarn install' }
     use "lukas-reineke/indent-blankline.nvim"
     use {"rose-pine/neovim", as = "rose-pine"}
+    use {'nvim-lualine/lualine.nvim', requires = {'nvim-tree/nvim-web-devicons', opt = true}}
+    -- Unless you are still migrating, remove the deprecated commands from v1.x
+    vim.cmd([[ let g:neo_tree_remove_legacy_commands = 1 ]])
+
+    use {
+      "nvim-neo-tree/neo-tree.nvim",
+        branch = "v2.x",
+        requires = { 
+          "nvim-lua/plenary.nvim",
+          "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+          "MunifTanjim/nui.nvim",
+        }
+      }
+    use({
+      "neanias/everforest-nvim",
+      -- Optional; default configuration will be used if setup isn't called.
+      config = function()
+        require("everforest").setup()
+      end,
+    })
     end
 )
 
+require('lualine').setup()
+
 require('rose-pine').setup({
 	--- @usage 'auto'|'main'|'moon'|'dawn'
-	variant = 'main',
+	variant = 'moon',
 	--- @usage 'main'|'moon'|'dawn'
 	dark_variant = 'main',
 	bold_vert_split = false,
@@ -148,8 +170,55 @@ require('rose-pine').setup({
 
 -- Set colorscheme after options
 vim.cmd('colorscheme rose-pine')
--- setup must be called before loading
 
+ require("catppuccin").setup({
+    flavour = "macchiato", -- latte, frappe, macchiato, mocha
+    background = { -- :h background
+        light = "latte",
+        dark = "mocha",
+    },
+    transparent_background = false,
+    show_end_of_buffer = false, -- show the '~' characters after the end of buffers
+    term_colors = false,
+    dim_inactive = {
+        enabled = false,
+        shade = "dark",
+        percentage = 0.15,
+    },
+    no_italic = false, -- Force no italic
+    no_bold = false, -- Force no bold
+    no_underline = false, -- Force no underline
+    styles = {
+        comments = { "italic" },
+        conditionals = { "italic" },
+        loops = {},
+        functions = {},
+        keywords = {},
+        strings = {},
+        variables = {},
+        numbers = {},
+        booleans = {},
+        properties = {},
+        types = {},
+        operators = {},
+    },
+    color_overrides = {},
+    custom_highlights = {},
+    integrations = {
+        cmp = true,
+        gitsigns = true,
+        nvimtree = true,
+        telescope = true,
+        notify = false,
+        mini = false,
+        -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
+    },
+})
+
+-- setup must be called before loading
+-- vim.cmd.colorscheme "catppuccin"
+-- setup must be called before loading
+vim.cmd.colorscheme "everforest"
 local configs = require'nvim-treesitter.configs'
 configs.setup {
   ensure_installed = "",
@@ -177,7 +246,7 @@ key_mapper('n', '<leader>fs', ':lua require"telescope.builtin".live_grep()<CR>')
 key_mapper('n', '<leader>fh', ':lua require"telescope.builtin".help_tags()<CR>')
 key_mapper('n', '<leader>fb', ':lua require"telescope.builtin".buffers()<CR>')
 
-key_mapper('n', '<C-f>', ':NvimTreeToggle<CR>')
+key_mapper('n', '<C-f>', ':Neotree<CR>')
 
 key_mapper("n", "gd", "<Plug>(coc-definition)", {silent = true})
 key_mapper("n", "gy", "<Plug>(coc-type-definition)", {silent = true})
