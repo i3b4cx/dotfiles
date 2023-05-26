@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="half-life"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -118,6 +118,6 @@ alias ic='nvim ~/.config/i3/config'
 alias l='exa -abghHliS'
 alias sa='source ~/.zshrc'
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH=$PATH:~/bin
 K="https://vm001.kgisystems.com/synkboxclient/synkboxclient"
+build="build3.kgisystems.com"
