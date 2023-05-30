@@ -1,6 +1,7 @@
 import os
 from urllib.request import urlopen
 
+config.source('onedark.py')
 # load your autoconfig, use this, if the rest of your config is empty!
 config.load_autoconfig()
 
@@ -10,6 +11,7 @@ if not os.path.exists(config.configdir / "theme.py"):
         with open(config.configdir / "theme.py", "a") as file:
             file.writelines(themehtml.read().decode("utf-8"))
 
-if os.path.exists(config.configdir / "theme.py"):
-    import everforest
-    everforest.setup(c, 'dark', 'hard')
+# if os.path.exists(config.configdir / "theme.py"):
+    # import everforest
+    # everforest.setup(c, 'dark', 'hard')
+

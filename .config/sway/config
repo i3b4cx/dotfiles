@@ -219,7 +219,7 @@ for_window [class="^.*"] opacity 0.9
 gaps inner 10
 gaps outer 16
 
-client.focused #2ba56e #2ba56e #2ba56e #2ba56e
+client.focused #81A1C1 #81A1C1 #81A1C1 #81A1C1
 client.focused_inactive #525252 #525252 #525252 #525252
 client.unfocused #525252 #525252 #525252 #525252
 client.urgent #ff6666 #ff6666 #ff6666 #ff6666
@@ -236,4 +236,4 @@ set $refresh_i3status killall -SIGUSR1 i3status
 # start ssh-agent in the background
 exec_always --no-startup-id eval "$(ssh-agent -s)"
 
-exec_always --no-startup-id swaybg -i ~/Downloads/eos-mimo.jpg
+exec_always --no-startup-id swaybg -i ~/Downloads/ign-0000.png

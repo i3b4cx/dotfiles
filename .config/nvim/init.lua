@@ -93,6 +93,8 @@ packer.startup(function()
     use {'prettier/vim-prettier', run = 'yarn install' }
     use "lukas-reineke/indent-blankline.nvim"
     use {"rose-pine/neovim", as = "rose-pine"}
+    use {'nordtheme/vim'}
+    use {'navarasu/onedark.nvim'}
     use {'nvim-lualine/lualine.nvim', requires = {'nvim-tree/nvim-web-devicons', opt = true}}
     -- Unless you are still migrating, remove the deprecated commands from v1.x
     vim.cmd([[ let g:neo_tree_remove_legacy_commands = 1 ]])
@@ -168,9 +170,6 @@ require('rose-pine').setup({
 	}
 })
 
--- Set colorscheme after options
-vim.cmd('colorscheme rose-pine')
-
  require("catppuccin").setup({
     flavour = "macchiato", -- latte, frappe, macchiato, mocha
     background = { -- :h background
@@ -215,10 +214,8 @@ vim.cmd('colorscheme rose-pine')
     },
 })
 
--- setup must be called before loading
--- vim.cmd.colorscheme "catppuccin"
--- setup must be called before loading
-vim.cmd.colorscheme "everforest"
+vim.cmd.colorscheme "nord"
+
 local configs = require'nvim-treesitter.configs'
 configs.setup {
   ensure_installed = "",
