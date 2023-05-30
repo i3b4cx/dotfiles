@@ -1,3 +1,19 @@
-2023/05/24-15:34:24.745 3 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2023/05/24-15:34:24.752 3 Recovering log #5300
-2023/05/24-15:34:24.752 3 Reusing old log /home/hpurdum/.config/chromium/Default/Local Storage/leveldb/005300.log 
+2023/05/30-10:45:31.387 3 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2023/05/30-10:45:31.390 3 Recovering log #5311
+2023/05/30-10:45:31.411 3 Level-0 table #5314: started
+2023/05/30-10:45:31.451 3 Level-0 table #5314: 907296 bytes OK
+2023/05/30-10:45:31.472 3 Delete type=0 #5311
+2023/05/30-10:45:31.474 5 Compacting 5@0 + 2@1 files
+2023/05/30-10:45:31.568 5 Generated table #5316@0: 2150 keys, 2322606 bytes
+2023/05/30-10:45:31.590 5 Generated table #5317@0: 782 keys, 1292977 bytes
+2023/05/30-10:45:31.590 5 Compacted 5@0 + 2@1 files => 3615583 bytes
+2023/05/30-10:45:31.592 5 compacted to: files[ 0 2 1 0 0 0 0 ]
+2023/05/30-10:45:31.593 5 Delete type=2 #5301
+2023/05/30-10:45:31.593 5 Delete type=2 #5302
+2023/05/30-10:45:31.593 5 Delete type=2 #5305
+2023/05/30-10:45:31.593 5 Delete type=2 #5307
+2023/05/30-10:45:31.593 5 Delete type=2 #5309
+2023/05/30-10:45:31.593 5 Delete type=2 #5312
+2023/05/30-10:45:31.594 5 Delete type=2 #5314
+2023/05/30-10:47:14.308 6 Level-0 table #5319: started
+2023/05/30-10:47:14.319 6 Level-0 table #5319: 131075 bytes OK

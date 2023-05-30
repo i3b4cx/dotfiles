@@ -1,3 +1,10 @@
-2023/05/24-11:52:40.373 5397 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/05/24-11:52:40.374 5397 Recovering log #379
-2023/05/24-11:52:40.379 5397 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000379.log 
+2023/05/30-10:45:36.986 1f7d Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/30-10:45:36.986 1f7d Recovering log #387
+2023/05/30-10:45:36.986 1f7d Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000387.log 
+2023/05/30-10:45:37.247 1f7c Compacting 1@1 + 1@2 files
+2023/05/30-10:45:37.300 1f7c Generated table #390@1: 5993 keys, 1047436 bytes
+2023/05/30-10:45:37.300 1f7c Compacted 1@1 + 1@2 files => 1047436 bytes
+2023/05/30-10:45:37.302 1f7c compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/30-10:45:37.302 1f7c Delete type=2 #386
+2023/05/30-10:45:37.302 1f7c Delete type=2 #388
+2023/05/30-10:45:53.882 1f7f Manual compaction at level-0 from '\x00}\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00~\x00\x00\x00' @ 0 : 0; will stop at (end)

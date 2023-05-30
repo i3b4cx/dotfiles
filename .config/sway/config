@@ -236,4 +236,4 @@ set $refresh_i3status killall -SIGUSR1 i3status
 # start ssh-agent in the background
 exec_always --no-startup-id eval "$(ssh-agent -s)"
 
-exec_always --no-startup-id swaybg -i ~/Downloads/forest.jpg
+exec_always --no-startup-id swaybg -i ~/Downloads/eos-mimo.jpg
