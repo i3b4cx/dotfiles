@@ -105,8 +105,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-WLR_NO_HARDWARE_CURSORS=1
-LIBGL_ALWAYS_SOFTWARE=1
 EDITOR=nvim
 FCEDIT=nvim
 SVN_EDITOR=nvim
