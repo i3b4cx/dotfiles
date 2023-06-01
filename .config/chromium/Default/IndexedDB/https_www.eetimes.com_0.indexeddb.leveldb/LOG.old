@@ -1,6 +1,0 @@
-2023/05/23-11:03:40.500 1792 Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.eetimes.com_0.indexeddb.leveldb since it was missing.
-2023/05/23-11:03:40.505 1792 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.eetimes.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/05/23-11:04:29.511 1793 Level-0 table #5: started
-2023/05/23-11:04:29.514 1793 Level-0 table #5: 1383 bytes OK
-2023/05/23-11:04:29.517 1793 Delete type=0 #3
-2023/05/23-11:04:29.518 1793 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

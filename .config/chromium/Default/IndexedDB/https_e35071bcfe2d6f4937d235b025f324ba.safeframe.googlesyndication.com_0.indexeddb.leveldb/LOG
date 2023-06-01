@@ -1,7 +1,0 @@
-2022/12/09-20:35:28.704 fe3 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_e35071bcfe2d6f4937d235b025f324ba.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/09-20:35:28.704 fe3 Recovering log #3
-2022/12/09-20:35:28.704 fe3 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_e35071bcfe2d6f4937d235b025f324ba.safeframe.googlesyndication.com_0.indexeddb.leveldb/000003.log 
-2022/12/09-20:35:31.105 fe3 Level-0 table #5: started
-2022/12/09-20:35:31.106 fe3 Level-0 table #5: 480 bytes OK
-2022/12/09-20:35:31.107 fe3 Delete type=0 #3
-2022/12/09-20:35:31.107 fe3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

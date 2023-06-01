@@ -1,6 +1,0 @@
-2023/05/18-09:50:00.321 10f8 Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_v8.dev_0.indexeddb.leveldb since it was missing.
-2023/05/18-09:50:00.325 10f8 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_v8.dev_0.indexeddb.leveldb/MANIFEST-000001
-2023/05/18-09:50:32.433 10fa Level-0 table #5: started
-2023/05/18-09:50:32.436 10fa Level-0 table #5: 2258 bytes OK
-2023/05/18-09:50:32.441 10fa Delete type=0 #3
-2023/05/18-09:50:32.442 10fa Manual compaction at level-0 from (begin) .. (end); will stop at (end)

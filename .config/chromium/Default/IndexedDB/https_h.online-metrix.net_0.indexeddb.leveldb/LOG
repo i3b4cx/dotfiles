@@ -1,7 +1,0 @@
-2023/05/22-16:22:31.914 1793 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_h.online-metrix.net_0.indexeddb.leveldb/MANIFEST-000001
-2023/05/22-16:22:31.914 1793 Recovering log #3
-2023/05/22-16:22:31.914 1793 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_h.online-metrix.net_0.indexeddb.leveldb/000003.log 
-2023/05/22-16:22:38.725 1793 Level-0 table #5: started
-2023/05/22-16:22:38.727 1793 Level-0 table #5: 1277 bytes OK
-2023/05/22-16:22:38.730 1793 Delete type=0 #3
-2023/05/22-16:22:38.731 1793 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

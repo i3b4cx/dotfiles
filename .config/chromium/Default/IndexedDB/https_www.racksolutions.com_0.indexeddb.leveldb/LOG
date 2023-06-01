@@ -1,6 +1,0 @@
-2023/03/08-13:16:42.198 1c2410 Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.racksolutions.com_0.indexeddb.leveldb since it was missing.
-2023/03/08-13:16:42.200 1c2410 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.racksolutions.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/08-13:16:58.581 1c2410 Level-0 table #5: started
-2023/03/08-13:16:58.583 1c2410 Level-0 table #5: 874 bytes OK
-2023/03/08-13:16:58.588 1c2410 Delete type=0 #3
-2023/03/08-13:16:58.589 1c2410 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,6 +1,0 @@
-2023/03/20-13:32:05.275 1bb6 Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_nb.fidelity.com_0.indexeddb.leveldb since it was missing.
-2023/03/20-13:32:05.279 1bb6 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_nb.fidelity.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/20-13:32:17.404 23bfdf Level-0 table #5: started
-2023/03/20-13:32:17.405 23bfdf Level-0 table #5: 1271 bytes OK
-2023/03/20-13:32:17.406 23bfdf Delete type=0 #3
-2023/03/20-13:32:17.407 23bfdf Manual compaction at level-0 from (begin) .. (end); will stop at (end)

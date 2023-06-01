@@ -1,6 +1,0 @@
-2023/04/11-17:08:02.739 d71d Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb since it was missing.
-2023/04/11-17:08:02.746 d71d Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/04/11-17:21:02.094 356c4 Level-0 table #5: started
-2023/04/11-17:21:02.098 356c4 Level-0 table #5: 182412 bytes OK
-2023/04/11-17:21:02.099 356c4 Delete type=0 #3
-2023/04/11-17:21:02.099 356c4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

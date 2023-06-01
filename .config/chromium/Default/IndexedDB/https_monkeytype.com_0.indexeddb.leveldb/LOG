@@ -1,7 +1,0 @@
-2023/03/17-12:06:13.382 1bb6 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/17-12:06:13.383 1bb6 Recovering log #8
-2023/03/17-12:06:13.383 1bb6 Reusing old log /home/hpurdum/.config/chromium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000008.log 
-2023/03/17-12:06:13.755 11d4f6 Level-0 table #14: started
-2023/03/17-12:06:13.757 11d4f6 Level-0 table #14: 727 bytes OK
-2023/03/17-12:06:13.759 11d4f6 Delete type=0 #8
-2023/03/17-12:06:13.759 1bb6 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

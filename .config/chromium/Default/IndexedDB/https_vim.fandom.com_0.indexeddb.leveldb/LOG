@@ -1,6 +1,0 @@
-2023/03/29-13:06:28.033 76d Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_vim.fandom.com_0.indexeddb.leveldb since it was missing.
-2023/03/29-13:06:28.039 76d Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_vim.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/29-13:06:33.314 4b64 Level-0 table #5: started
-2023/03/29-13:06:33.317 4b64 Level-0 table #5: 2539 bytes OK
-2023/03/29-13:06:33.318 4b64 Delete type=0 #3
-2023/03/29-13:06:33.318 4b64 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

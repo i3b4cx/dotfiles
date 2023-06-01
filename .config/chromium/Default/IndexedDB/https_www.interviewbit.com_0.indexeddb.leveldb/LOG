@@ -1,6 +1,0 @@
-2023/03/21-14:35:33.010 1bb6 Creating DB /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.interviewbit.com_0.indexeddb.leveldb since it was missing.
-2023/03/21-14:35:33.017 1bb6 Reusing MANIFEST /home/hpurdum/.config/chromium/Default/IndexedDB/https_www.interviewbit.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/21-14:52:25.606 2abb68 Level-0 table #5: started
-2023/03/21-14:52:25.608 2abb68 Level-0 table #5: 1298 bytes OK
-2023/03/21-14:52:25.610 2abb68 Delete type=0 #3
-2023/03/21-14:52:25.610 2abb68 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
