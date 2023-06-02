@@ -13,7 +13,7 @@ browsers = "firefox qutebrowser"
 development = "clang gcc g++"
 editors = "vim nvim"
 terminals = "alacritty"
-utilities = "btop tmux neofetch ranger mpv mpd imv ncmpcpp zsh git"
+utilities = "btop bat tmux neofetch ranger mpv mpd imv ncmpcpp zsh git"
 wm = "sway swaylock swaybg swayidle mako"
 
 pacman -Sy $browsers $editors $terminals $utilities $wm
