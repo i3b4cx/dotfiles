@@ -219,7 +219,7 @@ for_window [class="^.*"] opacity 0.9
 gaps inner 10
 gaps outer 16
 
-client.focused #81A1C1 #81A1C1 #81A1C1 #81A1C1
+client.focused #EAD2A8 #EAD2A8 #EAD2A8 #EAD2A8
 client.focused_inactive #525252 #525252 #525252 #525252
 client.unfocused #525252 #525252 #525252 #525252
 client.urgent #ff6666 #ff6666 #ff6666 #ff6666
