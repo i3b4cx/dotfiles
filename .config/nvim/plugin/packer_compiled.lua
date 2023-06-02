@@ -85,21 +85,20 @@ _G.packer_plugins = {
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/barbar.nvim",
     url = "https://github.com/romgrk/barbar.nvim"
   },
-  catppuccin = {
-    loaded = true,
-    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/catppuccin",
-    url = "https://github.com/catppuccin/nvim"
-  },
   ["coc.nvim"] = {
     loaded = true,
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
-  ["everforest-nvim"] = {
-    config = { "\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15everforest\frequire\0" },
+  everforest = {
     loaded = true,
-    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/everforest-nvim",
-    url = "https://github.com/neanias/everforest-nvim"
+    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/everforest",
+    url = "https://github.com/sainnhe/everforest"
+  },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,
@@ -111,10 +110,20 @@ _G.packer_plugins = {
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["minimal.nvim"] = {
+    loaded = true,
+    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/minimal.nvim",
+    url = "https://github.com/Yazeed1s/minimal.nvim"
+  },
   ["neo-tree.nvim"] = {
     loaded = true,
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
     url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
+  },
+  ["nord.nvim"] = {
+    loaded = true,
+    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/nord.nvim",
+    url = "https://github.com/shaunsingh/nord.nvim"
   },
   ["nui.nvim"] = {
     loaded = true,
@@ -136,11 +145,6 @@ _G.packer_plugins = {
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
-  ["onedark.nvim"] = {
-    loaded = true,
-    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/onedark.nvim",
-    url = "https://github.com/navarasu/onedark.nvim"
-  },
   ["plenary.nvim"] = {
     loaded = true,
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/plenary.nvim",
@@ -150,11 +154,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
-  },
-  ["rose-pine"] = {
-    loaded = true,
-    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/rose-pine",
-    url = "https://github.com/rose-pine/neovim"
   },
   ["telescope.nvim"] = {
     loaded = true,
@@ -166,11 +165,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
-  },
-  vim = {
-    loaded = true,
-    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/vim",
-    url = "https://github.com/nordtheme/vim"
   },
   ["vim-polyglot"] = {
     loaded = true,
@@ -198,10 +192,6 @@ time([[Config for toggleterm.nvim]], false)
 time([[Config for alpha-nvim]], true)
 try_loadstring("\27LJ\2\n`\0\0\5\0\5\0\n6\0\0\0'\2\1\0B\0\2\0029\0\2\0006\2\0\0'\4\3\0B\2\2\0029\2\4\2B\0\2\1K\0\1\0\vconfig\26alpha.themes.startify\nsetup\nalpha\frequire\0", "config", "alpha-nvim")
 time([[Config for alpha-nvim]], false)
--- Config for: everforest-nvim
-time([[Config for everforest-nvim]], true)
-try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15everforest\frequire\0", "config", "everforest-nvim")
-time([[Config for everforest-nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
