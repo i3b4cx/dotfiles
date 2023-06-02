@@ -110,7 +110,7 @@ packer.startup(function()
 
 require('lualine').setup()
 
-vim.cmd.colorscheme "nightowl"
+vim.cmd.colorscheme "minimal"
 
 local configs = require'nvim-treesitter.configs'
 configs.setup {
