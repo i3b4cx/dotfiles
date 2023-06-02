@@ -8,13 +8,16 @@ fi
 
 pacman -Syu
 
-terminals = "alacritty"
 aur-packages = "sddm-git rofi-wayland-git"
-wm = "sway swaylock swaybg swayidle mako"
-editors = "vim nvim"
-utilities = "btop tmux neofetch clang ranger mpv mpd imv ncmpcpp"
 browsers = "firefox qutebrowser"
+development = "clang gcc g++"
+editors = "vim nvim"
+terminals = "alacritty"
+utilities = "btop tmux neofetch ranger mpv mpd imv ncmpcpp zsh git"
+wm = "sway swaylock swaybg swayidle mako"
 
-pacman -Sy $terminals $wm $editors $utilities $browsers
+pacman -Sy $browsers $editors $terminals $utilities $wm
 
 yay -Sy $aur-packages
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
