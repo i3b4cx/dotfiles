@@ -83,6 +83,9 @@ set $menu rofi -show run
 
     # Exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+
+    # Lock the screen
+    bindsym $mod+Escape exec swaylock -i ~/.wallpapers/nord/ign-0000.png
 #
 # Moving around:
 #
@@ -236,4 +239,4 @@ set $refresh_i3status killall -SIGUSR1 i3status
 # start ssh-agent in the background
 exec_always --no-startup-id eval "$(ssh-agent -s)"
 
-exec_always --no-startup-id swaybg -i ~/.wallpapers/ign-0000.png
+exec_always --no-startup-id swaybg -i ~/.wallpapers/nord/ign-0000.png
