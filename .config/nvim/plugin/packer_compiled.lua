@@ -80,11 +80,6 @@ _G.packer_plugins = {
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/alpha-nvim",
     url = "https://github.com/goolord/alpha-nvim"
   },
-  ["barbar.nvim"] = {
-    loaded = true,
-    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/barbar.nvim",
-    url = "https://github.com/romgrk/barbar.nvim"
-  },
   ["coc.nvim"] = {
     loaded = true,
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/coc.nvim",
@@ -105,15 +100,20 @@ _G.packer_plugins = {
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
-  ["lualine.nvim"] = {
+  ["kanagawa.nvim"] = {
     loaded = true,
-    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/lualine.nvim",
-    url = "https://github.com/nvim-lualine/lualine.nvim"
+    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
   },
   ["minimal.nvim"] = {
     loaded = true,
     path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/minimal.nvim",
     url = "https://github.com/Yazeed1s/minimal.nvim"
+  },
+  ["minimap.vim"] = {
+    loaded = true,
+    path = "/home/hpurdum/.local/share/nvim/site/pack/packer/start/minimap.vim",
+    url = "https://github.com/wfxr/minimap.vim"
   },
   ["neo-tree.nvim"] = {
     loaded = true,

@@ -3,7 +3,7 @@ vim.o.syntax = 'on'
 vim.o.errorbells = false
 vim.opt.smartcase = true
 vim.opt.ignorecase = true
-vim.opt.laststatus = 0
+vim.opt.laststatus = 3
 vim.o.showmode = false
 vim.bo.swapfile = false
 vim.o.backup = false
@@ -21,6 +21,8 @@ vim.o.expandtab = true
 vim.wo.number = true
 vim.wo.relativenumber = true
 vim.opt.fillchars = { eob = ' ' }
+vim.o.statusline = "%f | %l,%c | %p%%"
+
 
 -- disable netrw at the very start of your init.lua (strongly advised)
 vim.g.loaded_netrw = 1
@@ -73,6 +75,7 @@ packer.startup(function()
     use 'nvim-lua/telescope.nvim'
     use 'jremmen/vim-ripgrep'
     use 'nvim-tree/nvim-tree.lua'
+    use 'wfxr/minimap.vim'
     use {
       'goolord/alpha-nvim',
       requires = { 'nvim-tree/nvim-web-devicons' },
@@ -81,7 +84,6 @@ packer.startup(function()
       end
     }
     --- use 'nvim-tree/nvim-web-devicons'
-    use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
     use {"akinsho/toggleterm.nvim", tag = '*', config = function()
       require("toggleterm").setup({shade_terminals = false})
     end
@@ -92,7 +94,7 @@ packer.startup(function()
     use {'sainnhe/everforest'}
     use {'sainnhe/gruvbox-material'}
     use {'Yazeed1s/minimal.nvim'}
-    use {'nvim-lualine/lualine.nvim', requires = {'nvim-tree/nvim-web-devicons', opt = true}}
+    use {'rebelot/kanagawa.nvim'}
     -- Unless you are still migrating, remove the deprecated commands from v1.x
     vim.cmd([[ let g:neo_tree_remove_legacy_commands = 1 ]])
 
@@ -108,9 +110,7 @@ packer.startup(function()
     end
 )
 
-require('lualine').setup()
-
-vim.cmd.colorscheme "minimal"
+vim.cmd.colorscheme "kanagawa-dragon"
 
 local configs = require'nvim-treesitter.configs'
 configs.setup {
@@ -140,6 +140,7 @@ key_mapper('n', '<leader>fh', ':lua require"telescope.builtin".help_tags()<CR>')
 key_mapper('n', '<leader>fb', ':lua require"telescope.builtin".buffers()<CR>')
 
 key_mapper('n', '<C-f>', ':Neotree<CR>')
+key_mapper('n', '<C-m>', ':MinimapToggle<CR>')
 
 key_mapper("n", "gd", "<Plug>(coc-definition)", {silent = true})
 key_mapper("n", "gy", "<Plug>(coc-type-definition)", {silent = true})

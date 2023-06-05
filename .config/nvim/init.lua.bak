@@ -92,6 +92,7 @@ packer.startup(function()
     use {'sainnhe/everforest'}
     use {'sainnhe/gruvbox-material'}
     use {'Yazeed1s/minimal.nvim'}
+    use {'rebelot/kanagawa.nvim'}
     use {'nvim-lualine/lualine.nvim', requires = {'nvim-tree/nvim-web-devicons', opt = true}}
     -- Unless you are still migrating, remove the deprecated commands from v1.x
     vim.cmd([[ let g:neo_tree_remove_legacy_commands = 1 ]])
@@ -110,7 +111,7 @@ packer.startup(function()
 
 require('lualine').setup()
 
-vim.cmd.colorscheme "nightowl"
+vim.cmd.colorscheme "kanagawa-dragon"
 
 local configs = require'nvim-treesitter.configs'
 configs.setup {
