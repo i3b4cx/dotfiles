@@ -1,9 +1,5 @@
 import:
-<<<<<<< HEAD
 - ~/.config/alacritty/themes/kanagawa-dragon.yaml
-=======
-- ~/.config/alacritty/themes/nord.yaml
->>>>>>> 79bcd8a21dcc2e6aaa4b6d5eafcf554593f815ea
 
 env:
   TERM: xterm-256color
