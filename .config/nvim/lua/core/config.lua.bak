@@ -26,5 +26,5 @@ vim.opt.fillchars = { eob = ' ' }
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
-vim.cmd [[colorscheme kanagawa-wave]]
+vim.cmd [[colorscheme gruvbox-material]]
 vim.cmd [[let g:neo_tree_remove_legacy_commands = 1]]

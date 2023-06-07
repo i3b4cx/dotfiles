@@ -16,7 +16,6 @@ vim.opt.rtp:prepend(lazypath)
 require "core.keymap"
 require "core.lazy-setup"
 require "core.config"
-require "which-key"
 
 -- specific setup
 require "bufferline".setup()
