@@ -14,7 +14,7 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term alacritty
+set $term kitty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -85,7 +85,7 @@ set $menu rofi -show run
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
 
     # Lock the screen
-    bindsym $mod+Escape exec swaylock -i ~/.wallpapers/nord/ign_starWars.jpg
+    bindsym $mod+Escape exec swaylock -i ~/.wallpapers/nord/ign_legendary.png
 #
 # Moving around:
 #
@@ -217,10 +217,10 @@ bindsym $mod+r mode "resize"
 #    }
 #}
 
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 0
 for_window [class="^.*"] opacity 0.9
-gaps inner 20
-gaps outer 20
+gaps inner 4
+gaps outer 4
 
 client.focused #525252 #525252 #525252 #525252
 client.focused_inactive #525252 #525252 #525252 #525252
@@ -239,4 +239,4 @@ set $refresh_i3status killall -SIGUSR1 i3status
 # start ssh-agent in the background
 exec_always --no-startup-id eval "$(ssh-agent -s)"
 
-exec_always --no-startup-id swaybg -i ~/.wallpapers/nord/ign_waifu.png
+exec_always --no-startup-id swaybg -i ~/.wallpapers/nord/ign-0008.png
