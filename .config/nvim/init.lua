@@ -1,156 +1,86 @@
-vim.o.termguicolors = true
-vim.o.syntax = 'on'
-vim.o.errorbells = false
-vim.opt.smartcase = true
-vim.opt.ignorecase = true
-vim.opt.laststatus = 3
-vim.o.showmode = false
-vim.bo.swapfile = false
-vim.o.backup = false
-vim.o.undodir = vim.fn.stdpath('config') .. '/undodir'
-vim.o.undofile = true
-vim.o.incsearch = true
-vim.o.hidden = true
-vim.o.completeopt='menuone,noinsert,noselect'
-vim.bo.autoindent = true
-vim.bo.smartindent = true
-vim.o.tabstop = 4
-vim.o.softtabstop = 4
-vim.o.shiftwidth = 4
-vim.o.expandtab = true
-vim.wo.number = true
-vim.wo.relativenumber = true
-vim.opt.fillchars = { eob = ' ' }
-vim.o.statusline = "%f | %l,%c | %p%%"
-
-
--- disable netrw at the very start of your init.lua (strongly advised)
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-
-local key_mapper = function(mode, key, result)
-  vim.api.nvim_set_keymap(
-    mode,
-    key,
-    result,
-    {noremap = true, silent = true}
-  )
+-- init lazy manager
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
 end
+vim.opt.rtp:prepend(lazypath)
 
-key_mapper('i', 'jk', '<ESC>')
-key_mapper('i', 'JK', '<ESC>')
-key_mapper('i', 'jK', '<ESC>')
-key_mapper('v', 'jk', '<ESC>')
-key_mapper('v', 'JK', '<ESC>')
-key_mapper('v', 'jK', '<ESC>')
+-- personal requires
+require "core.keymap"
+require "core.lazy-setup"
+require "core.config"
+require "which-key"
 
-vim.g.mapleader = ';'
-
-
-local vim = vim
-
-local execute = vim.api.nvim_command
-local fn = vim.fn
--- ensure that packer is installed
-local install_path = fn.stdpath('data')..'/site/pack/packer/opt/packer.nvim'
-if fn.empty(fn.glob(install_path)) > 0 then
-  execute('!git clone https://github.com/wbthomason/packer.nvim '..install_path)
-  execute 'packadd packer.nvim'
-end
-vim.cmd('packadd packer.nvim')
-local packer = require'packer'
-local util = require'packer.util'
-packer.init({
-package_root = util.join_paths(vim.fn.stdpath('data'), 'site', 'pack')
-})
-
---- startup and add configure plugins
-packer.startup(function()
-  local use = use
-    use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
-    use 'sheerun/vim-polyglot'
-    use {'neoclide/coc.nvim', branch = 'release'}
-    use 'nvim-lua/popup.nvim'
-    use 'nvim-lua/plenary.nvim'
-    use 'nvim-lua/telescope.nvim'
-    use 'jremmen/vim-ripgrep'
-    use 'nvim-tree/nvim-tree.lua'
-    use 'wfxr/minimap.vim'
-    use {
-      'goolord/alpha-nvim',
-      requires = { 'nvim-tree/nvim-web-devicons' },
-      config = function ()
-          require'alpha'.setup(require'alpha.themes.startify'.config)
-      end
+-- specific setup
+require "bufferline".setup()
+require "gitsigns".setup()
+require "lspconfig".clangd.setup{}
+require "lualine".setup{
+  options = {
+    icons_enabled = true,
+    theme = 'auto',
+    component_separators = { left = '', right = ''},
+    section_separators = { left = '', right = ''},
+    disabled_filetypes = {
+      statusline = {},
+      winbar = {},
+    },
+    ignore_focus = {},
+    always_divide_middle = true,
+    globalstatus = false,
+    refresh = {
+      statusline = 1000,
+      tabline = 1000,
+      winbar = 1000,
     }
-    --- use 'nvim-tree/nvim-web-devicons'
-    use {"akinsho/toggleterm.nvim", tag = '*', config = function()
-      require("toggleterm").setup({shade_terminals = false})
-    end
-    }
-    use {'prettier/vim-prettier', run = 'yarn install' }
-    use {'lukas-reineke/indent-blankline.nvim'}
-    use {'shaunsingh/nord.nvim'}
-    use {'sainnhe/everforest'}
-    use {'sainnhe/gruvbox-material'}
-    use {'Yazeed1s/minimal.nvim'}
-    use {'rebelot/kanagawa.nvim'}
-    -- Unless you are still migrating, remove the deprecated commands from v1.x
-    vim.cmd([[ let g:neo_tree_remove_legacy_commands = 1 ]])
-
-    use {
-      "nvim-neo-tree/neo-tree.nvim",
-        branch = "v2.x",
-        requires = { 
-          "nvim-lua/plenary.nvim",
-          "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
-          "MunifTanjim/nui.nvim",
-        }
-      }
-    end
-)
-
-vim.cmd.colorscheme "kanagawa-dragon"
-
-local configs = require'nvim-treesitter.configs'
-configs.setup {
-  ensure_installed = "",
-  highlight = {
-    enable = true,
-  }
+  },
+  sections = {
+    lualine_a = {'mode'},
+    lualine_b = {'branch', 'diff', 'diagnostics'},
+    lualine_c = {'filename'},
+    lualine_x = {'encoding', 'fileformat', 'filetype'},
+    lualine_y = {'progress'},
+    lualine_z = {'location'}
+  },
+  inactive_sections = {
+    lualine_a = {},
+    lualine_b = {},
+    lualine_c = {'filename'},
+    lualine_x = {'location'},
+    lualine_y = {},
+    lualine_z = {}
+  },
+  tabline = {},
+  winbar = {},
+  inactive_winbar = {},
+  extensions = {}
 }
 
--- empty setup using defaults
-require("nvim-tree").setup()
+-- nvim-lspconfig bindings
+vim.keymap.set('n', '<space>e', vim.diagnostic.open_float)
+vim.keymap.set('n', '[d', vim.diagnostic.goto_prev)
+vim.keymap.set('n', ']d', vim.diagnostic.goto_next)
+vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist)
 
--- OR setup with some options
-require("nvim-tree").setup({
-  sort_by = "case_sensitive",
-  renderer = {
-    group_empty = true,
-  },
-  filters = {
-    dotfiles = true,
-  },
+-- Use LspAttach autocommand to only map the following keys
+-- after the language server attaches to the current buffer
+vim.api.nvim_create_autocmd('LspAttach', {
+  group = vim.api.nvim_create_augroup('UserLspConfig', {}),
+  callback = function(ev)
+    -- Enable completion triggered by <c-x><c-o>
+    vim.bo[ev.buf].omnifunc = 'v:lua.vim.lsp.omnifunc'
+
+    -- Buffer local mappings.
+    -- See `:help vim.lsp.*` for documentation on any of the below functions
+    local opts = { buffer = ev.buf }
+    vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, opts)
+    vim.keymap.set('n', 'gd', vim.lsp.buf.definition, opts)
+  end,
 })
-
-key_mapper('n', '<C-space>', ':lua require"telescope.builtin".find_files()<CR>')
-key_mapper('n', '<leader>fs', ':lua require"telescope.builtin".live_grep()<CR>')
-key_mapper('n', '<leader>fh', ':lua require"telescope.builtin".help_tags()<CR>')
-key_mapper('n', '<leader>fb', ':lua require"telescope.builtin".buffers()<CR>')
-
-key_mapper('n', '<C-f>', ':Neotree<CR>')
-key_mapper('n', '<C-m>', ':MinimapToggle<CR>')
-
-key_mapper("n", "gd", "<Plug>(coc-definition)", {silent = true})
-key_mapper("n", "gy", "<Plug>(coc-type-definition)", {silent = true})
-key_mapper("n", "gi", "<Plug>(coc-implementation)", {silent = true})
-key_mapper("n", "gr", "<Plug>(coc-references)", {silent = true})
-
-local keyset = vim.keymap.set
-local opts = {silent = true, noremap = true, expr = true, replace_keycodes = false}
-
-keyset("i", "<cr>", [[coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"]], opts)
-vim.cmd('autocmd TermEnter term://*toggleterm#* tnoremap <silent><c-t> <Cmd>exe v:count1 . "ToggleTerm"<CR>')
-vim.cmd('nnoremap <silent><c-t> <Cmd>exe v:count1 . "ToggleTerm"<CR>')
-vim.cmd('inoremap <silent><c-t> <Esc><Cmd>exe v:count1 . "ToggleTerm"<CR>')
