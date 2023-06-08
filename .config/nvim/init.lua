@@ -14,5 +14,5 @@ vim.opt.rtp:prepend(lazypath)
 
 -- personal requires
 require "core.keymap"
-require "core.config"
 require "core.lazy-setup"
+require "core.config"
