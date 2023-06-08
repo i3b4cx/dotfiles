@@ -21,6 +21,16 @@ require "core.config"
 require "bufferline".setup()
 require "gitsigns".setup()
 require "nvim-tree".setup()
+require "lspconfig".clangd.setup{
+    on_attach = on_attach,
+    capabilities = capabilities,
+    cmd = {
+        "clangd",
+        "--log=verbose",
+        "--compile-commands-dir=./build/",
+        "--query-driver=/usr/bin/clang,/usr/bin/gcc,/usr/bin/g++,/opt/synkbox/1.6.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++"
+    }
+}
 require "lualine".setup{
   options = {
     icons_enabled = true,
