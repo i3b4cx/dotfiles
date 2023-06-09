@@ -10,7 +10,6 @@ only supporting arch and it's derivatives for the moment.
 
 #### i3 \[xorg wm\]
 no longer need the gaps fork since it's been merged into the original tree. used alongside xss-lock, i3lock, and feh.
-- `ic`: opens i3 config in neovim.
 
 #### picom \[i3 compositor\]
 technically a [fork](https://github.com/ibhagwan/picom) of the original picom source, that adds dual kawase blur and rounded corners.
@@ -21,15 +20,17 @@ i keep a relatively minimal kitty config and primarily focus on theme matching n
 
 #### zsh \[scripting\]
 currently using oh-my-zsh over p10k, looking into moving to prezto.
+- `ic`: opens i3 config in neovim.
+- `l`: ls with extra arguments.
+- `sa`: source zsh config.
+- `v` : alias for nvim.
+- `zc`: open zsh config in neovim.
 
 #### neovim \[editor\]
 recently moved from packer to lazy and refactored my config to match.
-- `nvim`: start neovim.
-- `v` : alias.
 
 #### ranger \[file explorer\]
 simple curses based file explorer.
-- `ranger`: open ranger.
 
 #### rofi \[dmenu clone\]
 great application launcher with theme support.

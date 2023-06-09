@@ -109,12 +109,11 @@ EDITOR=nvim
 FCEDIT=nvim
 SVN_EDITOR=nvim
 
-alias v=nvim
-alias ac='nvim ~/.config/alacritty/alacritty.yml'
-alias zc='nvim ~/.zshrc'
 alias ic='nvim ~/.config/i3/config'
-alias l='exa -abghHliS'
+alias l='ls -lah'
 alias sa='source ~/.zshrc'
+alias v=nvim
+alias zc='nvim ~/.zshrc'
 
 export PATH=$PATH:~/bin:~/.cargo/bin
 K="https://vm001.kgisystems.com/synkboxclient/synkboxclient"
