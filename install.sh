@@ -27,14 +27,14 @@ case "$(uname)" in
     browsers="firefox"
     development="clang npm gcc g++ valgrind gdb apitrace"
     editors="neovim"
-    terminals="kitty"
+    terminals="kitty zsh zsh-autosuggestions zsh-syntax-highlighting"
     utilities="neofetch ranger zsh rofi networkmanager dunst feh"
     wm="i3-wm i3lock i3status xss-lock"
 
     echo "installing new packages"
     sudo pacman -Sy $browsers $editors $terminals $utilities $wm
 
-    if [ $aur != "" ]; then
+    if [ $aur!="" ]; then
         echo "installing aur packages"
         yay -Sy $aur
     fi
@@ -49,14 +49,14 @@ case "$(uname)" in
     ;;
 esac
 
-# prezto install
-if [ ! -d ~/.zprezto ]; then
-	git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+# oh-my-zsh install
+if [ ! -d ~/.oh-my-zsh]; then
+	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
 # zsh setup
 if [ -x "$(command -v zsh)" ] && [ "$SHELL" != "$(command -v zsh)" ]; then
-	printf '\e[1mChanging your shell to zsh\e[0m\n'
+	echo "changing shell to zsh"
 	grep -q -F "$(command -v zsh)" /etc/shells || sudo sh -c 'echo "$(command -v zsh)" >> /etc/shells'
 	chsh -s "$(command -v zsh)"
 fi
