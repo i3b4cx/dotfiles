@@ -34,7 +34,7 @@ case "$(uname)" in
     echo "installing new packages"
     sudo pacman -Sy $browsers $editors $terminals $utilities $wm
 
-    if [ $aur!="" ]; then
+    if [ ! $aur eq "" ]; then
         echo "installing aur packages"
         yay -Sy $aur
     fi
