@@ -3,5 +3,9 @@ return {
 	-- follow latest release.
 	version = "1.*", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
 	-- install jsregexp (optional!).
-	build = "make install_jsregexp"
+	build = "make install_jsregexp",
+    config = function()
+        local luasnip = require("luasnip.loaders.from_vscode")
+        luasnip.lazy_load()
+    end,
 }

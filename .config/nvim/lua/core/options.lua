@@ -30,4 +30,4 @@ vim.cmd [[colorscheme horizon]]
 vim.cmd [[let g:neo_tree_remove_legacy_commands = 1]]
 
 -- autocomplete setting for nvim-cmp
-vim.opt.completeopt = {'menu', 'menuone', 'noselect'}
+vim.opt.completeopt = { "menu", "menuone", "noselect" }
