@@ -1,6 +1,5 @@
 #!/bin/bash
-if [[ ! -d build ]];
-then
+if [[ ! -d build ]]; then
     mkdir build
     cd build
     bash ../scripts/configure-local-release
