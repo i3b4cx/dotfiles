@@ -19,7 +19,7 @@ technically a [fork](https://github.com/ibhagwan/picom) of the original picom so
 i keep a relatively minimal kitty config and primarily focus on theme matching neovim.
 
 #### zsh \[scripting\]
-currently using oh-my-zsh over p10k, looking into moving to prezto.
+currently using oh-my-zsh over p10k.
 - `ic`: opens i3 config in neovim.
 - `l`: ls with extra arguments.
 - `sa`: source zsh config.
@@ -50,12 +50,9 @@ great tool for analyzing gl api calls during renders.
 
 ## install
 1. run: `git clone git@github.com:i3b4cx/dotfiles.git ~/.dotfiles`
-2. Change the name and email address in `git/.config/git/config`
-3. Arch Linux only: Change `pacmanfile/.config/pacmanfile/pacmanfile.txt` to your liking or add `pacmanfile-extra.txt` to the same directory for independent packages per machine
+2. change the name and email address in `git/.config/git/config`
 **WARNING: This may install and/or remove software and change your configs!**
-4. run: `~/dotfiles/install.sh`
-5. Either import an existing PGP key pair by using `gpg --import my-key.asc` and `gpg --import my-key-pub.asc`, or create a new one by following the [GitHub guide](https://help.github.com/en/articles/generating-a-new-gpg-key). You need to use the same name and email address as an ID that you have configured in `git/.gitconfig` to correctly sign your Git commits.
-6. Either import an existing SSH key pair by copying it to `~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub` or create a new one by following the [GitHub guide](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+3. run: `~/dotfiles/install.sh`
 
 ## quick and dirty:
 **WARNING: This may install and/or remove software and change your configs!**
