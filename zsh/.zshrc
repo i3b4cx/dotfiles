@@ -115,6 +115,5 @@ alias sa='source ~/.zshrc'
 alias v=nvim
 alias zc='nvim ~/.zshrc'
 
-export PATH=$PATH:~/bin:~/.cargo/bin
 K="https://vm001.kgisystems.com/synkboxclient/synkboxclient"
 build="build3.kgisystems.com"
