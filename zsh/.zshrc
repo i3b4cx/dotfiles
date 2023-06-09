@@ -114,6 +114,3 @@ alias l='ls -lah'
 alias sa='source ~/.zshrc'
 alias v=nvim
 alias zc='nvim ~/.zshrc'
-
-K="https://vm001.kgisystems.com/synkboxclient/synkboxclient"
-build="build3.kgisystems.com"
