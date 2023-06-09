@@ -1,25 +1,69 @@
 #!/bin/bash
 
-echo "This script assumes an arch-based install with pacman exists and that some necessary basic setup has already been addressed."
-echo "5 seconds to cancel ('^C') before launching script:"
-sleep 5
+case "$(uname)" in
+# linux system
+"Linux")
+    # check if distro is arch or a derivative
+    if [ ! -x "$(command -v pacman)" ]; then
+        echo "this installer only supports arch and it's derivatives."
+        exit 1
+    fi
 
-echo "Updating pre-existing packages:"
-sudo pacman -Syu
+    # install git if not installed
+    if [ ! -x "$(command -v git)" ]; then
+        echo "installing git"
+        sudo pacman -S --noconfirm --needed git
+    fi
 
-aur-packages="sddm-git rofi-wayland-git code-minimap"
-browsers="firefox qutebrowser"
-development="clang npm gcc g++"
-editors="vim neovim wl-clipboard"
-terminals="alacritty"
-utilities="btop bat exa tmux neofetch ranger mpv mpd imv ncmpcpp zsh git"
-wm="sway swaylock swaybg swayidle mako"
+    # clone dots
+	if [ ! -d ~/.dotfiles ]; then
+		echo "cloning dots"
+		git clone https://github.com/i3b4cx/dotfiles.git ~/.dotfiles
+	fi
 
-echo "Installing new packages:"
-sudo pacman -Sy $browsers $editors $terminals $utilities $wm
+    sudo pacman -Syu
 
-echo "Installing aur packages:"
-yay -Sy $aur-packages
+    aur=""
+    browsers="firefox"
+    development="clang npm gcc g++ valgrind gdb apitrace"
+    editors="neovim"
+    terminals="kitty"
+    utilities="neofetch ranger zsh rofi networkmanager dunst feh"
+    wm="i3-wm i3lock i3status xss-lock"
 
-echo "Installing JetBrains Mono font:"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
+    echo "installing new packages"
+    sudo pacman -Sy $browsers $editors $terminals $utilities $wm
+
+    if [ $aur != "" ]; then
+        echo "installing aur packages"
+        yay -Sy $aur
+    fi
+
+    echo "installing JetBrainsMono nerd font"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
+    ;;
+# default non-linux system
+*)
+    echo "currently only supports linux kernels. please install manually."
+    exit 1
+    ;;
+esac
+
+# prezto install
+if [ ! -d ~/.zprezto ]; then
+	git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+fi
+
+# zsh setup
+if [ -x "$(command -v zsh)" ] && [ "$SHELL" != "$(command -v zsh)" ]; then
+	printf '\e[1mChanging your shell to zsh\e[0m\n'
+	grep -q -F "$(command -v zsh)" /etc/shells || sudo sh -c 'echo "$(command -v zsh)" >> /etc/shells'
+	chsh -s "$(command -v zsh)"
+fi
+
+# remove existing bash config
+rm -rf ~/.bash*
+
+EDITOR=nvim
+
+echo "dotfiles installed successfully. please reboot to finalize."
