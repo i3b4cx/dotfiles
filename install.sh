@@ -67,18 +67,22 @@ if [ ! -f /usr/local/bin/change-theme.sh ]; then
     sudo cp ~/.dotfiles/scripts/change-theme.sh /usr/local/bin
     sudo chmod +x /usr/local/bin/change-theme.sh
     echo "/usr/local/bin/change-theme.sh installed."
+else
+    echo "/usr/local/bin/change-theme.sh already installed."
 fi
 
 if [ ! -f /usr/local/bin/build-release.sh ]; then
     sudo cp ~/.dotfiles/scripts/release-build.sh /usr/local/bin
     sudo chmod +x /usr/local/bin/release-build.sh
     echo "/usr/local/bin/release-build.sh installed."
+    echo "/usr/local/bin/release-build.sh already installed."
 fi
 
 if [ ! -f /usr/local/bin/build-debug.sh ]; then
     sudo cp ~/.dotfiles/scripts/debug-build.sh /usr/local/bin
     sudo chmod +x /usr/local/bin/debug-build.sh
     echo "/usr/local/bin/debug-build.sh installed."
+    echo "/usr/local/bin/debug-build.sh already installed."
 fi
 
 EDITOR=nvim
