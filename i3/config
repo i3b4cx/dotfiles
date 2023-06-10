@@ -11,7 +11,7 @@
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango: JetBrains Mono 10
+font pango: "JetBrainsMono ExtraBold 20"
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -26,7 +26,7 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- mantablockscreen --nofork
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -63,7 +63,7 @@ bindsym $mod+Return exec kitty
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -show drun
+bindsym $mod+d exec --no-startup-id rofi -show drun -font "JetBrainsMono ExtraBold 20"
 # A more modern dmenu replacement is rofi:
 # bindsym $mod+d exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -215,10 +215,9 @@ bindsym $mod+r mode "resize"
 # Please remove the following exec line:
 #######################################################################
 
-# Clipboard Manager "clipit" AUR
-exec --no-startup-id clipit
+exec xrandr --output DisplayPort-0 --mode 3840x2160 --pos 0x0 --rotate right --output DisplayPort-1 --mode 3840x2160 --pos 2160x840 --rotate normal
 
-bindsym $mod+Escape exec mantablockscreen
+bindsym $mod+Escape exec i3lock
 
 for_window [class="^.*"] border pixel 0
 
