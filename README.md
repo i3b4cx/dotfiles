@@ -58,5 +58,5 @@ great tool for analyzing gl api calls during renders.
 **WARNING: This may install and/or remove software and change your configs!**
 run this:
 ```shell
-$ curl -s https://raw.githubusercontent.com/i3b4cx/dotfiles/main/install.sh | sh
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/i3b4cx/dotfiles/master/install.sh)"
 ```
