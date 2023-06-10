@@ -71,7 +71,7 @@ else
     echo "/usr/local/bin/change-theme.sh already installed."
 fi
 
-if [ ! -f /usr/local/bin/build-release.sh ]; then
+if [ ! -f /usr/local/bin/release-build.sh ]; then
     sudo cp ~/.dotfiles/scripts/release-build.sh /usr/local/bin
     sudo chmod +x /usr/local/bin/release-build.sh
     echo "/usr/local/bin/release-build.sh installed."
@@ -79,7 +79,7 @@ else
     echo "/usr/local/bin/release-build.sh already installed."
 fi
 
-if [ ! -f /usr/local/bin/build-debug.sh ]; then
+if [ ! -f /usr/local/bin/debug-build.sh ]; then
     sudo cp ~/.dotfiles/scripts/debug-build.sh /usr/local/bin
     sudo chmod +x /usr/local/bin/debug-build.sh
     echo "/usr/local/bin/debug-build.sh installed."
