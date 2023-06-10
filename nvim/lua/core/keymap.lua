@@ -1,8 +1,8 @@
 vim.g.mapleader = ' '
 
 vim.keymap.set("n", "l", "<cmd>:Lazy<CR>")
-vim.keymap.set("n", "br", "<cmd>:!build-release.sh<CR>")
-vim.keymap.set("n", "bd", "<cmd>:!build-debug.sh<CR>")
+vim.keymap.set("n", "br", "<cmd>:!release-build.sh<CR>")
+vim.keymap.set("n", "bd", "<cmd>:!debug-build.sh<CR>")
 vim.keymap.set("n", "bc", "<cmd>:!rm -rf build<CR>")
 vim.keymap.set("n", ";", "<cmd>:NvimTreeToggle<CR>")
 
