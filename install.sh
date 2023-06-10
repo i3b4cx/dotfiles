@@ -29,7 +29,7 @@ case "$(uname)" in
     editors="neovim"
     terminals="kitty zsh zsh-autosuggestions zsh-syntax-highlighting"
     utilities="neofetch ranger w3m zsh rofi networkmanager dunst feh"
-    wm="i3-wm i3lock i3status xss-lock"
+    wm="i3-wm i3status xss-lock"
 
     echo "installing new packages"
     sudo pacman -Sy $browsers $editors $terminals $utilities $wm
