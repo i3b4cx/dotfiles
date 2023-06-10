@@ -1,10 +1,10 @@
 # .dotfiles
 
+![Screenshot](screenshot.png)
+
 i primarily work with [c++](https://isocpp.org/), [gl2](https://www.khronos.org/opengl/), [valgrind](https://valgrind.org/), [gdb](https://www.sourceware.org/gdb/), and [zsh](https://www.zsh.org/) shell scripts. these dots are configured to assist this work flow.
 
 only supporting arch and it's derivatives for the moment.
-
-![Screenshot](screenshot.png)
 
 ## features and usage
 
