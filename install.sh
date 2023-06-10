@@ -21,7 +21,7 @@ case "$(uname)" in
 		git clone https://github.com/i3b4cx/dotfiles.git ~/.dotfiles
 	fi
 
-    sudo pacman -Syu
+    sudo pacman -Syu --no-confirm
 
     aur="mantablockscreen"
     browsers="firefox"
@@ -32,10 +32,10 @@ case "$(uname)" in
     wm="i3-wm i3status xss-lock"
 
     echo "installing new packages"
-    sudo pacman -Sy $browsers $editors $terminals $utilities $wm
+    sudo pacman -S --no-confirm --needed $browsers $editors $terminals $utilities $wm
 
     echo "installing aur packages"
-    yay -Sy $aur
+    yay -S --no-confirm --needed $aur
 
     echo "installing JetBrainsMono nerd font"
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
