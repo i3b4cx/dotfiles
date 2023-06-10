@@ -4,7 +4,7 @@ i primarily work with [c++](https://isocpp.org/), [gl2](https://www.khronos.org/
 
 only supporting arch and it's derivatives for the moment.
 
-![Screenshot](/screenshots/screenshot.png)
+![Screenshot](screenshot.png)
 
 ## features and usage
 
