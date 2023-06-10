@@ -62,6 +62,22 @@ fi
 # remove existing bash config
 rm -rf ~/.bash*
 
+# setup our change-theme.sh and build-*.sh scripts
+if [! -f /usr/local/bin/change-theme.sh ]; then
+    sudo cp ~/.dotfiles/scripts/change-theme.sh /usr/local/bin
+    sudo chmod +x /usr/local/bin/change-theme.sh
+fi
+
+if [! -f /usr/local/bin/build-release.sh ]; then
+    sudo cp ~/.dotfiles/scripts/build-release.sh /usr/local/bin
+    sudo chmod +x /usr/local/bin/build-release.sh
+fi
+
+if [! -f /usr/local/bin/build-debug.sh ]; then
+    sudo cp ~/.dotfiles/scripts/build-debug.sh /usr/local/bin
+    sudo chmod +x /usr/local/bin/build-debug.sh
+fi
+
 EDITOR=nvim
 
 echo "dotfiles installed successfully. please reboot to finalize."
