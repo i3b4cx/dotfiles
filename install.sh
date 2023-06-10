@@ -12,7 +12,7 @@ case "$(uname)" in
     # install git if not installed
     if [ ! -x "$(command -v git)" ]; then
         echo "installing git"
-        sudo pacman -S --noconfirm --needed git
+        sudo pacman -S --needed git
     fi
 
     # clone dots
@@ -21,7 +21,7 @@ case "$(uname)" in
 		git clone https://github.com/i3b4cx/dotfiles.git ~/.dotfiles
 	fi
 
-    sudo pacman -Syu --no-confirm
+    sudo pacman -Syu
 
     aur="mantablockscreen"
     browsers="firefox"
@@ -32,10 +32,10 @@ case "$(uname)" in
     wm="i3-wm i3status xss-lock"
 
     echo "installing new packages"
-    sudo pacman -S --no-confirm --needed $browsers $editors $terminals $utilities $wm
+    sudo pacman -Sy --needed $browsers $editors $terminals $utilities $wm
 
     echo "installing aur packages"
-    yay -S --no-confirm --needed $aur
+    yay -Sy --needed $aur
 
     echo "installing JetBrainsMono nerd font"
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
@@ -48,7 +48,7 @@ case "$(uname)" in
 esac
 
 # oh-my-zsh install
-if [ ! -d ~/.oh-my-zsh]; then
+if [ ! -d ~/.oh-my-zsh ]; then
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
@@ -63,19 +63,22 @@ fi
 rm -rf ~/.bash*
 
 # setup our change-theme.sh and build-*.sh scripts
-if [! -f /usr/local/bin/change-theme.sh ]; then
+if [ ! -f /usr/local/bin/change-theme.sh ]; then
     sudo cp ~/.dotfiles/scripts/change-theme.sh /usr/local/bin
     sudo chmod +x /usr/local/bin/change-theme.sh
+    echo "/usr/local/bin/change-theme.sh installed."
 fi
 
-if [! -f /usr/local/bin/build-release.sh ]; then
-    sudo cp ~/.dotfiles/scripts/build-release.sh /usr/local/bin
-    sudo chmod +x /usr/local/bin/build-release.sh
+if [ ! -f /usr/local/bin/build-release.sh ]; then
+    sudo cp ~/.dotfiles/scripts/release-build.sh /usr/local/bin
+    sudo chmod +x /usr/local/bin/release-build.sh
+    echo "/usr/local/bin/release-build.sh installed."
 fi
 
-if [! -f /usr/local/bin/build-debug.sh ]; then
-    sudo cp ~/.dotfiles/scripts/build-debug.sh /usr/local/bin
-    sudo chmod +x /usr/local/bin/build-debug.sh
+if [ ! -f /usr/local/bin/build-debug.sh ]; then
+    sudo cp ~/.dotfiles/scripts/debug-build.sh /usr/local/bin
+    sudo chmod +x /usr/local/bin/debug-build.sh
+    echo "/usr/local/bin/debug-build.sh installed."
 fi
 
 EDITOR=nvim
