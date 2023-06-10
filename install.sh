@@ -23,21 +23,19 @@ case "$(uname)" in
 
     sudo pacman -Syu
 
-    aur=""
+    aur="mantablockscreen"
     browsers="firefox"
     development="clang npm gcc g++ valgrind gdb apitrace"
     editors="neovim"
     terminals="kitty zsh zsh-autosuggestions zsh-syntax-highlighting"
-    utilities="neofetch ranger zsh rofi networkmanager dunst feh"
+    utilities="neofetch ranger w3m zsh rofi networkmanager dunst feh"
     wm="i3-wm i3lock i3status xss-lock"
 
     echo "installing new packages"
     sudo pacman -Sy $browsers $editors $terminals $utilities $wm
 
-    if [ ! $aur eq "" ]; then
-        echo "installing aur packages"
-        yay -Sy $aur
-    fi
+    echo "installing aur packages"
+    yay -Sy $aur
 
     echo "installing JetBrainsMono nerd font"
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
