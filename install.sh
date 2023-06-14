@@ -28,7 +28,7 @@ case "$(uname)" in
     development="clang npm gcc g++ valgrind gdb apitrace"
     editors="neovim"
     terminals="kitty zsh zsh-autosuggestions zsh-syntax-highlighting"
-    utilities="neofetch ranger w3m zsh rofi networkmanager dunst feh imagemagick"
+    utilities="neofetch ranger w3m zsh rofi networkmanager dunst feh imagemagick tmux"
     wm="i3-wm i3status xss-lock"
 
     echo "installing new packages"
