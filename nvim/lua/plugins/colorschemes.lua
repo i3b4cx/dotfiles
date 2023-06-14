@@ -1,5 +1,6 @@
 return {
     "lunarvim/horizon.nvim",
     "rebelot/kanagawa.nvim",
-    "morhetz/gruvbox"
+    "morhetz/gruvbox",
+    "gbprod/nord.nvim"
 }
