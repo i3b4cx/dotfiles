@@ -9,7 +9,6 @@ return {
                 mode = "buffers", -- set to "tabs" to only show tabpages instead
                 style_preset = bufferline.style_preset.default, -- or bufferline.style_preset.minimal,
                 themable = false, -- allows highlight groups to be overriden i.e. sets highlights as default
-                numbers = "buffer_id",
                 close_command = "bdelete! %d",       -- can be a string | function, | false see "Mouse actions"
                 right_mouse_command = "bdelete! %d", -- can be a string | function | false, see "Mouse actions"
                 left_mouse_command = "buffer %d",    -- can be a string | function, | false see "Mouse actions"
@@ -89,7 +88,7 @@ return {
                 persist_buffer_sort = true, -- whether or not custom sorted buffers should persist
                 -- can also be a table containing 2 custom separators
                 -- [focused and unfocused]. eg: { '|', '|' }
-                separator_style = "slant",
+                separator_style = "normal",
                 enforce_regular_tabs = false,
                 always_show_bufferline = true,
                 hover = {
