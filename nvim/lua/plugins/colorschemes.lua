@@ -12,5 +12,6 @@ return {
         dependencies = {
             "rktjmp/lush.nvim"
         }
-    }
+    },
+    "embark-theme/vim"
 }

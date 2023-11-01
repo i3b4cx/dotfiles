@@ -1,6 +1,6 @@
 vim.g.mapleader = ' '
 
-vim.keymap.set("n", "l", "<cmd>:Lazy<CR>")
+vim.keymap.set("n", "<c-l>", "<cmd>:Lazy<CR>")
 vim.keymap.set("n", "br", "<cmd>:!release-build.sh<CR>")
 vim.keymap.set("n", "bd", "<cmd>:!debug-build.sh<CR>")
 vim.keymap.set("n", "bc", "<cmd>:!rm -rf build<CR>")
@@ -15,6 +15,9 @@ vim.keymap.set('n', '<space>e', vim.diagnostic.open_float)
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev)
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next)
 vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist)
+
+vim.keymap.set('n', '<c-t>', '<cmd>:ToggleTerm<CR>')
+vim.keymap.set('t', '<c-t>', '<cmd>:ToggleTerm<CR>')
 
 -- Use LspAttach autocommand to only map the following keys
 -- after the language server attaches to the current buffer
