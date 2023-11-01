@@ -21,6 +21,7 @@ vim.o.expandtab = true
 vim.wo.number = true
 vim.wo.relativenumber = true
 vim.opt.fillchars = { eob = ' ' }
+vim.wo.wrap = false
 
 -- disable netrw at the very start of your init.lua (strongly advised)
 vim.g.loaded_netrw = 1
