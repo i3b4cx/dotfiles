@@ -16,7 +16,7 @@ vim.keymap.set('n', '[d', vim.diagnostic.goto_prev)
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next)
 vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist)
 
-vim.keymap.set('n', '<c-t>', '<cmd>:ToggleTerm<CR>')
+vim.keymap.set('n', '<c-t>', '<cmd>:ToggleTerm direction=vertical size=80<CR>')
 vim.keymap.set('t', '<c-t>', '<cmd>:ToggleTerm<CR>')
 
 -- Use LspAttach autocommand to only map the following keys
