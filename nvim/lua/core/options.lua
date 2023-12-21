@@ -27,7 +27,7 @@ vim.wo.wrap = false
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
-vim.cmd [[colorscheme embark]]
+vim.cmd [[colorscheme forestbones]]
 vim.cmd [[let g:neo_tree_remove_legacy_commands = 1]]
 
 -- autocomplete setting for nvim-cmp
