@@ -16,8 +16,23 @@ vim.keymap.set('n', '[d', vim.diagnostic.goto_prev)
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next)
 vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist)
 
-vim.keymap.set('n', '<c-t>', '<cmd>:ToggleTerm direction=vertical size=80<CR>')
-vim.keymap.set('t', '<c-t>', '<cmd>:ToggleTerm<CR>')
+vim.keymap.set('n', '<c-t>', '<cmd>:ter<CR>')
+
+vim.keymap.set('t', '<c-h>', '<cmd>:wincmd h<CR>')
+vim.keymap.set('t', '<c-j>', '<cmd>:wincmd j<CR>')
+vim.keymap.set('t', '<c-k>', '<cmd>:wincmd k<CR>')
+vim.keymap.set('t', '<c-l>', '<cmd>:wincmd l<CR>')
+vim.keymap.set('t', '<c-v>', '<cmd>:wincmd v<CR>')
+vim.keymap.set('t', '<c-s>', '<cmd>:wincmd s<CR>')
+vim.keymap.set('t', '<c-c>', '<cmd>:wincmd c<CR>')
+
+vim.keymap.set('n', '<c-h>', '<cmd>:wincmd h<CR>')
+vim.keymap.set('n', '<c-j>', '<cmd>:wincmd j<CR>')
+vim.keymap.set('n', '<c-k>', '<cmd>:wincmd k<CR>')
+vim.keymap.set('n', '<c-l>', '<cmd>:wincmd l<CR>')
+vim.keymap.set('n', '<c-v>', '<cmd>:wincmd v<CR>')
+vim.keymap.set('n', '<c-s>', '<cmd>:wincmd s<CR>')
+vim.keymap.set('n', '<c-c>', '<cmd>:wincmd c<CR>')
 
 -- Use LspAttach autocommand to only map the following keys
 -- after the language server attaches to the current buffer
