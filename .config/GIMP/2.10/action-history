@@ -1,0 +1,8 @@
+# GIMP action-history
+
+(history-item "file-export-as" 5)
+(history-item "file-open" 4)
+(history-item "file-save-a-copy" 0)
+(history-item "file-quit" 1)
+
+# end of action-history

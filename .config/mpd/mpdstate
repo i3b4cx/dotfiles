@@ -3,7 +3,7 @@ audio_device_state:1:ALSA sound card
 audio_device_state:1:my_fifo
 state: pause
 current: 1
-time: 163.149000
+time: 5.942000
 random: 0
 repeat: 1
 single: 1
