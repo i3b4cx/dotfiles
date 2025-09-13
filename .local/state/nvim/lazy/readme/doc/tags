@@ -1,0 +1,50 @@
+!_TAG_FILE_ENCODING	utf-8	//
+cmp_luasnip-cmp-luasnip	cmp_luasnip.md	/# cmp_luasnip
+lazygit.nvim-bashrc	lazygit.nvim.md	/# ~\/.bashrc
+lazygit.nvim-config-jesseduffield-lazygit-config-yml	lazygit.nvim.md	/# ~\/.config\/jesseduffield\/lazygit\/config.yml
+lazygit.nvim-highlighting-groups	lazygit.nvim.md	/### Highlighting groups
+lazygit.nvim-install	lazygit.nvim.md	/### Install
+lazygit.nvim-lazygit-nvim	lazygit.nvim.md	/# lazygit.nvim
+lazygit.nvim-telescope-plugin	lazygit.nvim.md	/### Telescope Plugin
+lazygit.nvim-usage	lazygit.nvim.md	/### Usage
+midnight.nvim-color-palette	midnight.nvim.md	/### Color Palette
+midnight.nvim-configuration	midnight.nvim.md	/### Configuration
+midnight.nvim-contributing	midnight.nvim.md	/## Contributing
+midnight.nvim-crescent-moon-midnight	midnight.nvim.md	/# :crescent_moon: Midnight
+midnight.nvim-features	midnight.nvim.md	/## Features
+midnight.nvim-installation	midnight.nvim.md	/## Installation
+midnight.nvim-integrations	midnight.nvim.md	/#### Integrations
+midnight.nvim-license	midnight.nvim.md	/## License
+midnight.nvim-more-plugins-by-author	midnight.nvim.md	/### More plugins by Author
+midnight.nvim-requirements	midnight.nvim.md	/### Requirements
+midnight.nvim-showcase	midnight.nvim.md	/## Showcase
+midnight.nvim-thanks	midnight.nvim.md	/## Thanks
+midnight.nvim-usage	midnight.nvim.md	/## Usage
+midnight.nvim-vision	midnight.nvim.md	/## Vision
+nvim-web-devicons-additional-icons	nvim-web-devicons.md	/## Additional Icons
+nvim-web-devicons-case-sensitivity	nvim-web-devicons.md	/### Case Sensitivity
+nvim-web-devicons-contributing	nvim-web-devicons.md	/## Contributing
+nvim-web-devicons-get-all-icons	nvim-web-devicons.md	/### Get all icons
+nvim-web-devicons-get-icon	nvim-web-devicons.md	/### Get Icon
+nvim-web-devicons-get-icon-and-color-code	nvim-web-devicons.md	/### Get icon and color code
+nvim-web-devicons-getting-and-setting-icons-by-filetype	nvim-web-devicons.md	/### Getting and setting icons by filetype
+nvim-web-devicons-installation	nvim-web-devicons.md	/## Installation
+nvim-web-devicons-known-issues	nvim-web-devicons.md	/## Known Issues
+nvim-web-devicons-my-setup-overrides-are-not-applied	nvim-web-devicons.md	/### My `setup` Overrides Are Not Applied
+nvim-web-devicons-nvim-web-devicons	nvim-web-devicons.md	/# Nvim-web-devicons
+nvim-web-devicons-requirements	nvim-web-devicons.md	/## Requirements
+nvim-web-devicons-set-an-icon	nvim-web-devicons.md	/### Set an icon
+nvim-web-devicons-setup	nvim-web-devicons.md	/### Setup
+nvim-web-devicons-usage	nvim-web-devicons.md	/## Usage
+nvim-web-devicons-variants	nvim-web-devicons.md	/### Variants
+nvim-web-devicons-viewing	nvim-web-devicons.md	/### Viewing
+nvim-web-devicons-windows-and-wsl-not-rendering-icons-properly-on-some-terminals	nvim-web-devicons.md	/### Windows and WSL not rendering icons properly on some terminals
+nvterm-additional-functionality	nvterm.md	/### Additional Functionality
+nvterm-configuration	nvterm.md	/### Configuration
+nvterm-credits	nvterm.md	/## Credits
+nvterm-functions	nvterm.md	/### Functions
+nvterm-install	nvterm.md	/## Install
+nvterm-nvchad-terminal-plugin-unmaintained	nvterm.md	/# NvChad terminal Plugin ( Unmaintained ) 
+nvterm-send-commands-to-the-terminal	nvterm.md	/#### Send commands to the terminal
+nvterm-spawn-new-terminals	nvterm.md	/#### Spawn new terminals
+nvterm-toggle	nvterm.md	/#### Toggle

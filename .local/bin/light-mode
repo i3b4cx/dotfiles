@@ -1,0 +1,11 @@
+#!/bin/bash
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
+sed -i "s|import = \[\"~/.config/alacritty/themes/everforest-.*\.toml\"\]|import = [\"~/.config/alacritty/themes/everforest-light-medium.toml\"]|" ~/.config/alacritty/alacritty.toml
+sed -i 's|vim\.cmd("set background=dark")|vim.cmd("set background=light")|' ~/.config/nvim/lua/options.lua
+sed -i \
+  -e "s|-nb '#2d353b'|-nb '#fdf6e3'|" \
+  -e "s|-nf '#d3c6aa'|-nf '#5c6a72'|" \
+  -e "s|-sb '#7fbbb3'|-sb '#3a94c5'|" \
+  -e "s|-sf '#2d353b'|-sf '#fdf6e3'|" \
+  ~/.config/i3/config
+i3-msg restart

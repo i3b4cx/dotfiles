@@ -1,0 +1,30 @@
+! size matters
+*saveLines : 32767
+
+! anti-aliasing
+Xft*antialias : true
+Xft*hinting   : 1
+Xft*dpi       : 96
+
+Xcursor.theme : Vanilla-DMZ-AA
+Xcursor.size  : 22
+
+*background:faf4ed
+*foreground:5e597e
+
+*base00: e5dfdf
+*base01: beb8ba
+*base02: "969295"
+*base03: 6f6c71
+*base04: 48464c
+*base05: 211f28
+*base06: 1c1a22
+*base07: 17161c
+*base08: 635e6e
+*base09: 645f64
+*base0A: 60606b
+*base0B: "606069"
+*base0C: 645c7c
+*base0D: 615d80
+*base0E: "615e79"
+*base0F: 635f6c

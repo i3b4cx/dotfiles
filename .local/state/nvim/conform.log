@@ -1,0 +1,58 @@
+2025-05-23 11:18:38[ERROR] Formatter 'yamlfmt' error: yaml: line 2: mapping values are not allowed in this context
+
+2025-05-23 11:19:12[ERROR] Formatter 'yamlfmt' error: yaml: line 2: mapping values are not allowed in this context
+
+2025-05-23 11:19:21[ERROR] Formatter 'yamlfmt' error: yaml: line 2: mapping values are not allowed in this context
+
+2025-05-23 11:19:27[ERROR] Formatter 'yamlfmt' error: yaml: line 2: mapping values are not allowed in this context
+
+2025-06-25 23:29:25[ERROR] Formatter 'clang_format' error: /home/h/rvivl/.clang-format:14:35: error: unknown enumerated scalar
+AllowShortFunctionsOnASingleLine: Never
+                                  ^~~~~
+Error reading /home/h/rvivl/.clang-format: Invalid argument
+
+2025-06-25 23:30:31[ERROR] Formatter 'clang_format' error: /home/h/rvivl/.clang-format:15:35: error: unknown enumerated scalar
+AllowShortFunctionsOnASingleLine: Never
+                                  ^~~~~
+Error reading /home/h/rvivl/.clang-format: Invalid argument
+
+2025-06-25 23:30:42[ERROR] Formatter 'clang_format' error: /home/h/rvivl/.clang-format:15:35: error: unknown enumerated scalar
+AllowShortFunctionsOnASingleLine: Never
+                                  ^~~~~
+Error reading /home/h/rvivl/.clang-format: Invalid argument
+
+2025-06-25 23:31:03[ERROR] Formatter 'clang_format' error: /home/h/rvivl/.clang-format:15:35: error: unknown enumerated scalar
+AllowShortFunctionsOnASingleLine: Never
+                                  ^~~~~
+Error reading /home/h/rvivl/.clang-format: Invalid argument
+
+2025-06-25 23:33:46[ERROR] Formatter 'clang_format' error: /home/h/rvivl/.clang-format:81:35: error: unknown enumerated scalar
+AllowShortFunctionsOnASingleLine: Never
+                                  ^~~~~
+Error reading /home/h/rvivl/.clang-format: Invalid argument
+
+2025-06-25 23:34:29[ERROR] Formatter 'clang_format' error: /home/h/rvivl/.clang-format:81:35: error: unknown enumerated scalar
+AllowShortFunctionsOnASingleLine: Always
+                                  ^~~~~~
+Error reading /home/h/rvivl/.clang-format: Invalid argument
+
+2025-07-01 18:15:35[ERROR] Formatter 'meson_format' error: 
+ERROR: lexer: unrecognized token '`'
+test('gtest tests', gtest_`exe)
+                          ^
+
+2025-07-01 18:15:39[ERROR] Formatter 'meson_format' error: 
+ERROR: lexer: unrecognized token '`'
+test('gtest tests', gtest_`exe)
+                          ^
+
+2025-07-01 18:15:43[ERROR] Formatter 'meson_format' error: 
+ERROR: lexer: unrecognized token '`'
+test('gtest tests', gtest_`exe)
+                          ^
+
+2025-07-01 18:16:29[ERROR] Formatter 'meson_format' error: 
+ERROR: lexer: unrecognized token '`'
+test('gtest tests', gtest_`exe)
+                          ^
+

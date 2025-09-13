@@ -1,0 +1,68 @@
+/bin/sh: line 1: dex: command not found
+/bin/sh: line 1: nm-applet: command not found
+polybar|notice:  Parsing config file: /home/h/.config/polybar/config.ini
+polybar|notice:  Parsing config file: /home/h/.config/polybar/config.ini
+polybar|warn:  No monitor specified, using "DP-4"
+polybar|warn:  No monitor specified, using "DP-4"
+polybar|notice:  Loading module 'i3' of type 'internal/i3'
+polybar|notice:  Loading module 'sshfs' of type 'internal/fs'
+polybar|notice:  Loading module 'filesystem' of type 'internal/fs'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 3 modules
+polybar|notice:  Loaded font "MonoLisa i3b4cx:style=Bold Italic:size=9" (name=MonoLisa i3b4cx, offset=0, file=/home/h/.fonts/MonoLisai3b4cxItalic.ttf)
+polybar|notice:  Loaded font "MonoLisa i3b4cx:style=Bold Italic:size=9" (name=MonoLisa i3b4cx, offset=0, file=/home/h/.fonts/MonoLisai3b4cxItalic.ttf)
+polybar|notice:  Loaded font "Material Icons:style=Regular:size=9" (name=Material Icons, offset=0, file=/home/h/.local/share/fonts/MaterialIcons-Regular.ttf)
+polybar|warn:  tray: bar/upper.tray-position is deprecated, use the dedicated tray module to display the system tray
+polybar|notice:  pulseaudio: using default sink alsa_output.usb-PS_Audio_PS_Audio_USB_Audio_2.0-00.analog-stereo
+polybar|notice:  Loading module 'temperature' of type 'internal/temperature'
+polybar|notice:  Loading module 'battery' of type 'internal/battery'
+polybar|error: Disabling module "battery" (reason: No suitable way to get current charge state)
+polybar|notice:  Loading module 'wlan' of type 'internal/network'
+polybar|error: Invalid value for "module/wlan.format-disconnected-underline", using default value (reason: The reference ${module/wlan.format-connected-underline} does not exist (no fallback set))
+polybar|notice:  Loading module 'eth' of type 'internal/network'
+polybar|notice:  Loaded 9 modules
+polybar|notice:  Loaded font "MonoLisa i3b4cx:style=Bold Italic:size=9" (name=MonoLisa i3b4cx, offset=0, file=/home/h/.fonts/MonoLisai3b4cxItalic.ttf)
+polybar|notice:  Loaded font "MonoLisa i3b4cx:style=Bold Italic:size=9" (name=MonoLisa i3b4cx, offset=0, file=/home/h/.fonts/MonoLisai3b4cxItalic.ttf)
+polybar|notice:  Loaded font "Material Icons:style=Regular:size=9" (name=Material Icons, offset=0, file=/home/h/.local/share/fonts/MaterialIcons-Regular.ttf)
+polybar|warn:  tray: bar/lower.tray-position is deprecated, use the dedicated tray module to display the system tray
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1757792991.616204     964 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Created TensorFlow Lite XNNPACK delegate for CPU.
+Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+[942:968:0913/124951.747108:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+[942:968:0913/151755.845034:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+ERROR [neovide::settings::config] Could not watch config file, chances are it just doesn't exist: No such file or directory (os error 2) about ["/home/h/.config/neovide"]
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+ERROR [neovide::settings::config] Could not watch config file, chances are it just doesn't exist: No such file or directory (os error 2) about ["/home/h/.config/neovide"]
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+[942:968:0913/151850.909740:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+[1000:1225:0913/152011.153081:ERROR:components/viz/service/display/display.cc:205] Frame latency is negative: -0.057 ms
+[942:968:0913/152021.807068:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+[942:968:0913/152312.470853:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted
+polybar|warn:  module/sshfs: Mountpoint /mnt/sshfs is not mounted

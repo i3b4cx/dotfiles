@@ -1,0 +1,3 @@
+[submodule ".config"]
+	path = .config
+	url = git@github.com:i3b4cx/.config
