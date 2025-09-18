@@ -2,11 +2,7 @@
 	path = .config
 	url = https://github.com/i3b4cx/.config
 	branch = main
-[submodule "nvim"]
-	path = nvim
-	url = https://github.com/i3b4cx/nvim
-	branch = main
 [submodule "dmenu"]
 	path = dmenu
-	url = git@github.com:i3b4cx/dmenu.git
+	url = https://github.com/i3b4cx/dmenu
 	branch = main
