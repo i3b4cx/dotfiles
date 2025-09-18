@@ -1,0 +1,24 @@
+[general]
+# Switch variants by changing the file name below
+import = ["~/.config/alacritty/themes/everforest-dark-medium.toml"]
+
+[font]
+normal = { family = "MonoLisa i3b4cx", style = "Bold Italic" }
+bold   = { family = "MonoLisa i3b4cx", style = "Bold Italic" }
+italic = { family = "MonoLisa i3b4cx", style = "Bold Italic" }
+size   = 9.0
+
+[window]
+padding = { x = 25, y = 25 }
+
+[terminal.shell]
+program = "/bin/bash"
+
+[env]
+TERM = "xterm-256color"
+
+[cursor]
+blink_timeout = 0
+[cursor.style]
+shape = "Block"
+blinking = "Always"

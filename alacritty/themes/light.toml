@@ -1,0 +1,33 @@
+# dayfox.toml
+
+[colors.primary]
+background = "#fbf8f2"  # Clean, bright off-white
+foreground = "#6f5f7d"  # Stronger, more vivid purple-gray
+
+[colors.normal]
+black   = "#ece6df"
+red     = "#b26975"
+green   = "#88a696"
+yellow  = "#d1b981"
+blue    = "#819ecb"
+magenta = "#a18fbf"
+cyan    = "#7abbb5"
+white   = "#c9c2cc"
+
+[colors.bright]
+black   = "#d9d3cd"
+red     = "#c0818c"
+green   = "#9abca7"
+yellow  = "#cdb27f"
+blue    = "#90abcd"
+magenta = "#b39fcf"
+cyan    = "#8fd1ce"
+white   = "#4f445c"
+
+[colors.cursor]
+text   = "#fbf8f2"
+cursor = "#6f5f7d"
+
+[colors.selection]
+text       = "#6f5f7d"
+background = "#ece5dc"

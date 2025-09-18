@@ -1,0 +1,33 @@
+# dawnfox.toml
+
+[colors.primary]
+background = "#faf1e6"  # Warm, soft cream
+foreground = "#5a4e63"  # Muted purple-gray
+
+[colors.normal]
+black   = "#e8e2db"
+red     = "#af6e78"
+green   = "#7d9b8e"
+yellow  = "#c3a876"
+blue    = "#7e96b6"
+magenta = "#9481a5"
+cyan    = "#73a8a3"
+white   = "#bbb5be"
+
+[colors.bright]
+black   = "#d5cfc9"
+red     = "#b9888f"
+green   = "#7d9b8e"
+yellow  = "#b48d57"
+blue    = "#7e96b6"
+magenta = "#9481a5"
+cyan    = "#73a8a3"
+white   = "#3f3a5b"
+
+[colors.cursor]
+text   = "#faf1e6"
+cursor = "#5a4e63"
+
+[colors.selection]
+text       = "#5a4e63"
+background = "#eaddd4"

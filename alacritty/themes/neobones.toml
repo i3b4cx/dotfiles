@@ -1,0 +1,32 @@
+# neobones.toml
+[colors.primary]
+background = "#1e1e2e"
+foreground = "#c8c8d3"
+
+[colors.normal]
+black   = "#1e1e2e"
+red     = "#e8838f"
+green   = "#8bae68"
+yellow  = "#d68c67"
+blue    = "#61abda"
+magenta = "#cf86c1"
+cyan    = "#65b8c1"
+white   = "#888f94"
+
+[colors.bright]
+black   = "#403833"
+red     = "#e8838f"
+green   = "#8bae68"
+yellow  = "#d68c67"
+blue    = "#61abda"
+magenta = "#cf86c1"
+cyan    = "#65b8c1"
+white   = "#888f94"
+
+[colors.cursor]
+text   = "#1e1e2e"
+cursor = "#c8c8d3"
+
+[colors.selection]
+text       = "#1e1e2e"
+background = "#d68c67"
